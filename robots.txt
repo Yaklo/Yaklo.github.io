@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /class
+Disallow: /404
+Disallow: /test
+Disallow: /Download
+Disallow: /yaklo/admin
+Disallow: /yaklo/Goodbye_world
+Disallow: /yaklo/SkybluesounStudio
+Disallow: /yaklo/Update-log
+Disallow: /yaklo/statement
+Disallow: /yaklo/Video-copy
+Disallow: /niceskm
+Disallow: /skm
