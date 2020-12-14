@@ -26,14 +26,14 @@
   <entry>
     <title><![CDATA[电脑优化从入门到入土]]></title>
     <url>%2FBlog%2FPC_optimization_go_doorandsoil%2F</url>
-    <content type="text"><![CDATA[你的电脑为什么总是那么卡？ ##电脑优化从入门到入土##编辑进度61% 导读 一台优秀的电脑的背后到底需要做什么？别担心，我来告诉你 本文理论适用于所有情况，但对新电脑效果应该会更好 装机必备请注意，不管是什么软件请都不要安装在C盘，否则你的C盘会满的更快！2345系列软件千万别碰，对小白来说碰了的话可以直接重装电脑了！ 安全软件 火绒安全 官网 优化软件No Games ClearMem :: Free Up Your RAM SteamBuy￥37 建议等打折 Yes Games CPUCores :: Maximize Your FPS SteamBuy￥66 建议等打折DLCCPUCores :: ClearMem Lite SteamBuy￥22 建议等打折 美化软件桌面 SAO Utils: Beta SteamBuy￥19 推荐等打折 壁纸upupoo乃一界毒瘤，占用飞起最好别碰 Wallpaper Engine SteamBuy￥19 推荐直接购 SAO+WE买家秀Steam创意工坊Wallpaper Engine夏色祭单恋音频60帧循环SAO用的是自己调到参数，暂时不公开 浏览器 Google Chrome 官网 通讯软件 腾讯QQ 官网 腾讯微信 官网 Discord 官网 办公软件 Office Tool 官网 游戏平台 Steam 官网 | 平台下载页面 | 官方链接快捷下载/官方固定下载链接 UbisoftPlay 官网 | 平台下载页面 | 官方链接快捷下载/官方固定下载链接 EpicGames 官网 | 平台下载页面 | 官方链接快捷下载/官方固定下载链接 GOG Galaxy 官网 | 平台下载页面 | 官方链接快捷下载/V1.2.57.74 暴雪战网 官网 | 平台下载页面 | 官方链接快捷下载/官方固定下载链接 暴雪戰網 官網 | 平台下載頁面 | 官方鏈接快捷下載/官方固定下载链接 WeGame 官网 | 平台下载页面 | 官方链接快捷下载/V3.24.6.7252 性能优化视觉效果+虚拟内存右键 此电脑 点击 管理点击左侧 高级系统设置点击 高级-性能-设置这是我推荐的设置，红框框 的 勾掉然后点击 高级-虚拟内存-设置 处理器计划默认是程序虚拟内存 最大值 设置参数电脑内存 4GB 虚拟内存 设置为 8GB电脑内存 8GB 虚拟内存 设置为 16GB电脑内存 16GB 虚拟内存 设置为 32GB电脑内存 32GB 虚拟内存 设置为 32+GB 该区域内容可能有误区电脑内存 64GB 虚拟内存 设置为 32+GB 该区域内容可能有误区建议虚拟内存设置在SSD上，尽量避开C盘。如果SSD只有一个分区那就没办法了，设置在C盘上如果虚拟内存只是单个区扩大容量的话是不需要重启电脑的 卓越模式如何添加卓越模式小娜搜索“windows powershell”，并右键以管理员身份运行在弹出“windows powershell”窗口界面后，输入如下命令代码 1powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 如何开启卓越模式 如有漏缺请联系Yaklo补全 参考文章百度百科：win10卓越性能模式怎么开 win10开卓越性能模式方法参考视频参考网站]]></content>
+    <content type="text"><![CDATA[博文重制中……敬请期待]]></content>
       <categories>
         <category>软件</category>
       </categories>
       <tags>
+        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
-        <tag>CC0</tag>
         <tag>入门到入土</tag>
       </tags>
   </entry>
@@ -45,10 +45,10 @@
         <category>游戏</category>
       </categories>
       <tags>
-        <tag>教程相关</tag>
-        <tag>萌新向</tag>
         <tag>CC0</tag>
         <tag>Steam</tag>
+        <tag>教程相关</tag>
+        <tag>萌新向</tag>
         <tag>Epic</tag>
         <tag>WeGame</tag>
         <tag>联机</tag>
@@ -63,9 +63,9 @@
         <category>Next</category>
       </categories>
       <tags>
+        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
-        <tag>CC0</tag>
       </tags>
   </entry>
   <entry>
@@ -101,11 +101,11 @@
         <category>软件</category>
       </categories>
       <tags>
+        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
-        <tag>CC0</tag>
       </tags>
   </entry>
   <entry>
@@ -116,9 +116,9 @@
         <category>游戏</category>
       </categories>
       <tags>
+        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
-        <tag>CC0</tag>
         <tag>我的世界</tag>
       </tags>
   </entry>
@@ -130,12 +130,12 @@
         <category>软件</category>
       </categories>
       <tags>
-        <tag>Uplay</tag>
+        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
-        <tag>CC0</tag>
+        <tag>Uplay</tag>
       </tags>
   </entry>
   <entry>
