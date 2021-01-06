@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[致每一个访问我博客的人]]></title>
+    <url>%2FBlog%2Fsorry2021_Yaklo%2F</url>
+    <content type="text"><![CDATA[想为博客内未完成却仍然放出的内容道个歉 致每一个访问我博客的人 ——嗨！你好，我是虚之亚克洛，转眼间这个博客建立快2年了，想当初我只是觉得挺酷的然后尝试研究并搭建了一个Hexo博客。我很高兴直至今日仍有零零散散的人来到这个博客，不过主要都是因为CSGO动态队标而来的，不过这篇教程或许就是整个博客质量最高的了。不过我不会灰心，目前处于学业快速上升的阶段我得把握好机会，待时机成熟之日我会与大家分享我的心路历程的 虽然没人看哈哈 。——接下来我会在下面列出有问题的博文，感谢各位一直以来的支持 指访问这个博客 ，咱们有缘再会~ 完成度较高 CSGO系列 5分钟小教程系列 使用HMCL下载我的世界 有更新内容 深海迷航联机教程 优质应用分享 nCoVapp 这个是我使用手机软件Fusion App自制的，效果还不错就分享出来了 超强内存清理软件 烂尾博文 自己挖的坑迟早会填回去的 我的世界指令集 Hexonext配置指南 电脑优化从入门到入土]]></content>
+      <categories>
+        <category>公告</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[nCoVapp]]></title>
     <url>%2FBlog%2FnCoVapp%2F</url>
     <content type="text"><![CDATA[用Fusion App整合了4个nCoV的播报站 nCoVapp 软件介绍整合了 丁香医生 网易新闻 腾讯新闻 哔哩哔哩 疫情播报源 下载地址推荐 蓝凑云 分享短链丁香医生 otoo.top/4055应用下载 otoo.top/4055d 如有漏缺请联系Yaklo补全 参考网站酷安-Fusion AppnCoV-丁香医生nCoV-网易新闻nCoV-腾讯新闻nCoV-哔哩哔哩]]></content>
@@ -31,9 +39,9 @@
         <category>软件</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
+        <tag>CC0</tag>
         <tag>入门到入土</tag>
       </tags>
   </entry>
@@ -45,10 +53,10 @@
         <category>游戏</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
-        <tag>Steam</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
+        <tag>CC0</tag>
+        <tag>Steam</tag>
         <tag>Epic</tag>
         <tag>WeGame</tag>
         <tag>联机</tag>
@@ -63,9 +71,9 @@
         <category>Next</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
+        <tag>CC0</tag>
       </tags>
   </entry>
   <entry>
@@ -101,11 +109,11 @@
         <category>软件</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
+        <tag>CC0</tag>
       </tags>
   </entry>
   <entry>
@@ -116,9 +124,9 @@
         <category>游戏</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
+        <tag>CC0</tag>
         <tag>我的世界</tag>
       </tags>
   </entry>
@@ -130,11 +138,11 @@
         <category>软件</category>
       </categories>
       <tags>
-        <tag>CC0</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
+        <tag>CC0</tag>
         <tag>Uplay</tag>
       </tags>
   </entry>
