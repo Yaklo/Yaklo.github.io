@@ -119,7 +119,7 @@
   <entry>
     <title><![CDATA[使用HMCL下载我的世界]]></title>
     <url>%2FBlog%2FHMCLPlayMC%2F</url>
-    <content type="text"><![CDATA[被Mojang的下载速度气到炸？正版盗版都可用！ 使用HMCL下载我的世界2019.5.25 使用HMCL下载我的世界2019.5.25 HMCL是一款国人制作的我的世界启动器 下载HMCL请去—&gt;HMCL官网 首先，现将 HMCL启动器 放在你想要安装游戏的目录比如 D:\MinecraftHMCL HMCL设置可选项第一次打开HMCL的界面是这样的, hmcl.json 是HMCL相关的配置文件 然后点击左下角 启动器设置 改一下 文件下载缓存目录 点击自定义选择HMCL所在的目录 将 .minecraft 手动添加在后面 &lt;HMCL目录/ .minecraft&gt; 游戏安装版本选择点击 游戏列表 点击 安装新游戏版本 点击后会加载版本列表，稍等一小会 选择一个游戏版本 游戏扩展如果可以的话，可以把 Forge 和 Optifine高清修复安装一下，建议去官网查询是否有对应版本Forge官网 Optifine高清修复官网 正在下载安装，去泡个泡面吧 版本隔离建议开启 强制版本隔离 添加模组前提是有安装支持该游戏版本的 Forge 方法一 点击 添加模组 后选择mod文件 方法二 将 模组文件 丢进 mods 文件夹 材质包、光影材质包、光影存放文件夹，使用方法：将相关压缩文件丢进去 注：本教程参考网站纯公益推荐 如有漏缺请联系Yaklo补全 参考网站HMCL官网Forge官网Optifine高清修复官网]]></content>
+    <content type="text"><![CDATA[被Mojang的下载速度气到炸？正版盗版都可用！ 使用HMCL下载我的世界2019.5.25 使用HMCL下载我的世界2019.5.25 HMCL是一款国人制作的我的世界启动器 下载HMCL请去—&gt;HMCL官网 首先，现将 HMCL启动器 放在你想要安装游戏的目录比如 D:\MinecraftHMCL HMCL设置#可选项第一次打开HMCL的界面是这样的, hmcl.json 是HMCL相关的配置文件 然后点击左下角 启动器设置 改一下 文件下载缓存目录 点击自定义选择HMCL所在的目录 将 .minecraft 手动添加在后面 &lt;HMCL目录/ .minecraft&gt; 游戏安装版本选择点击 游戏列表 点击 安装新游戏版本 点击后会加载版本列表，稍等一小会 选择一个游戏版本 游戏扩展如果可以的话，可以把 Forge 和 Optifine高清修复安装一下，建议去官网查询是否有对应版本Forge官网 Optifine高清修复官网 正在下载安装，去泡个泡面吧 版本隔离建议开启 强制版本隔离 添加模组前提是有安装支持该游戏版本的 Forge 方法一 点击 添加模组 后选择mod文件 方法二 将 模组文件 丢进 mods 文件夹 材质包、光影材质包、光影存放文件夹，使用方法：将相关压缩文件丢进去 注：本教程参考网站纯公益推荐 如有漏缺请联系Yaklo补全 参考网站HMCL官网Forge官网Optifine高清修复官网]]></content>
       <categories>
         <category>游戏</category>
       </categories>
