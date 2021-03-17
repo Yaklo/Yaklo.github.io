@@ -1957,7 +1957,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff3e;
+  background: #603ec3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3341,4 +3341,17 @@ em {
 }
 .open:after {
   content: "▲";
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  border-radius: 0em;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 0em;
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
 }
