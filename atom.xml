@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaklo.skyesc.com/"/>
-  <updated>2021-01-06T11:47:56.000Z</updated>
+  <updated>2021-09-11T04:23:02.000Z</updated>
   <id>https://yaklo.skyesc.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信/QQ/TIM防撤回补丁</title>
+    <link href="https://yaklo.skyesc.com/Blog/RevokeMsgPatcher/"/>
+    <id>https://yaklo.skyesc.com/Blog/RevokeMsgPatcher/</id>
+    <published>2021-09-11T04:23:02.000Z</published>
+    <updated>2021-09-11T04:23:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center"><p>适用于 Windows 下 PC 版微信/QQ/TIM的防撤回补丁。支持最新版微信/QQ/TIM，其中微信能够选择安装多开功能。 </p></blockquote><a id="more"></a><blockquote><p><strong>👀微信/QQ/TIM防撤回补丁</strong></p></blockquote><h1 id="🔈前排提示"><a href="#🔈前排提示" class="headerlink" title="🔈前排提示"></a>🔈前排提示</h1><p>由于本篇文章关于软件的介绍、排版内容大多为直接搬运原作者原仓库内容，如有冒犯请至邮 <a href="mailto:yaklo@skyesc.com" target="_blank" rel="noopener">yaklo@skyesc.com</a> 我会及时处理相关事宜的，如果给您带来不便我感到非常抱歉。</p><h1 id="📷软件展示"><a href="#📷软件展示" class="headerlink" title="📷软件展示"></a>📷软件展示</h1><p><img src="https://raw.githubusercontent.com/huiyadanli/RevokeMsgPatcher/master/Images/screenshot.png" alt="软件截图"></p><h1 id="🔨使用方法"><a href="#🔨使用方法" class="headerlink" title="🔨使用方法"></a>🔨使用方法</h1><p>1.首先，你的系统需要满足以下条件：</p><ul><li>Windows 7 或更高版本，<strong>不支持XP</strong>。</li><li><a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=30653" target="_blank" rel="noopener">.NET Framework 4.5</a> 或更高版本。<strong>低于此版本在打开程序时可能无反应，或者直接报错。</strong></li></ul><p>2.使用本程序前先关闭对应软件，如QQ/TIM/微信。<br>3.<strong>以管理员身份运行本程序</strong>，等待右下角获取最新的补丁信息。<br>4.选择QQ/TIM/微信的安装路径。如果你是正常安装的QQ/TIM/微信，正常情况下本程序会自动从注册表中获取安装路径，绿色免安装版需要手动选择路径。<br>5.点击防撤回。界面可能会出现一段时间的无响应，请耐心等待。<strong>由于修改了微信的 WeChatWin.dll 文件、QQ/TIM的 IM.dll 文件，杀毒软件可能会弹出警告，放行即可。</strong></p><h1 id="⚡️下载地址"><a href="#⚡️下载地址" class="headerlink" title="⚡️下载地址"></a>⚡️下载地址</h1><p><a href="https://github.com/huiyadanli/RevokeMsgPatcher" target="_blank" rel="noopener">前往GITHUB仓库</a><br>v1.1版本下载备用 <em>↓不保证最新版本↓</em><br><a href="https://wwx.lanzoui.com/inDgks3xikh" target="_blank" rel="noopener">原作者蓝凑云</a> <a href="\Download\QQ%20微信%20小工具RevokeMsgPatcher.v1.1.zip">Yaklo备用</a></p><p><strong>如有漏缺请联系Yaklo补全</strong></p><p><em>参考文章</em><br><em><a href="web"></a></em><br><em>参考视频</em><br><em><a href="web"></a></em><br><em>参考网站</em><br><em><a href="https://github.com/huiyadanli/RevokeMsgPatcher" target="_blank" rel="noopener">GITHUB||微信/QQ/TIM防撤回补丁</a></em></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;适用于 Windows 下 PC 版微信/QQ/TIM的防撤回补丁。支持最新版微信/QQ/TIM，其中微信能够选择安装多开功能。 &lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="软件" scheme="https://yaklo.skyesc.com/categories/Software/"/>
+    
+    
+      <category term="转载" scheme="https://yaklo.skyesc.com/tags/Share/"/>
+    
+  </entry>
   
   <entry>
     <title>致每一个访问我博客的人</title>
@@ -59,6 +82,8 @@
       <category term="CC0" scheme="https://yaklo.skyesc.com/tags/CC0/"/>
     
       <category term="宣传" scheme="https://yaklo.skyesc.com/tags/%E5%AE%A3%E4%BC%A0/"/>
+    
+      <category term="原创" scheme="https://yaklo.skyesc.com/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
