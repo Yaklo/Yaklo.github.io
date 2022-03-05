@@ -334,8 +334,6 @@
       <category term="软件" scheme="https://yaklo.skyesc.com/categories/Software/"/>
     
     
-      <category term="Uplay" scheme="https://yaklo.skyesc.com/tags/Uplay/"/>
-    
       <category term="教程相关" scheme="https://yaklo.skyesc.com/tags/teaching/"/>
     
       <category term="UsbEAm Hosts Editor" scheme="https://yaklo.skyesc.com/tags/UsbEAm-Hosts-Editor/"/>
@@ -345,6 +343,8 @@
       <category term="5分钟" scheme="https://yaklo.skyesc.com/tags/5minutes/"/>
     
       <category term="CC0" scheme="https://yaklo.skyesc.com/tags/CC0/"/>
+    
+      <category term="Uplay" scheme="https://yaklo.skyesc.com/tags/Uplay/"/>
     
   </entry>
   
