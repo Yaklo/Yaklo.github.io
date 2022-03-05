@@ -1957,7 +1957,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d56a9f;
+  background: #ff93ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3306,7 +3306,7 @@ body {
 #days {
   display: block;
   color: #6cf;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 16px;
 }
 .post-toc .nav .nav-child {

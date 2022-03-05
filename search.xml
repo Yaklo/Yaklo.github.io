@@ -28,7 +28,7 @@
   <entry>
     <title><![CDATA[致每一个访问我博客的人]]></title>
     <url>%2FBlog%2Fsorry2021_Yaklo%2F</url>
-    <content type="text"><![CDATA[想为博客内未完成却仍然放出的内容道个歉 致每一个访问我博客的人 ——嗨！你好，我是虚之亚克洛，转眼间这个博客建立快2年了，想当初我只是觉得挺酷的然后尝试研究并搭建了一个Hexo博客。我很高兴直至今日仍有零零散散的人来到这个博客，不过主要都是因为CSGO动态队标而来的，不过这篇教程或许就是整个博客质量最高的了。不过我不会灰心，目前处于学业快速上升的阶段我得把握好机会，待时机成熟之日我会与大家分享我的心路历程的 虽然没人看哈哈 。——接下来我会在下面列出有问题的博文，感谢各位一直以来的支持 指访问这个博客 ，咱们有缘再会~ 完成度较高 CSGO系列 5分钟小教程系列 使用HMCL下载我的世界 有内容可进行更新补充 深海迷航联机教程 优质应用分享 nCoVapp 这个是我使用手机软件Fusion App自制的，效果还不错就分享出来了 超强内存清理软件 烂尾博文 自己挖的坑迟早会填回去的 我的世界指令集 Hexonext配置指南 电脑优化从入门到入土 在结尾想与点进来的各位分享一点东西Yaklostack#www.skyesc.com使用Hexo-theme-webstack制作的一个导航站，目前可能还不是很完善，因为可能是有点盲目跟风了，总想整点新活耍耍OTOO顺口好记#otoo.top一个4位数字短域，一样同上想整带活整出来的，目前自用，短域应该不至于枯竭，不过如果观察到有大量新数据或许会…变成5位！哈哈！OTOOBLOG暂时关闭，碍于资金问题目前没有一个很好的平台进行网站托管Tips：本人没啥技术只会套套模板，不喜勿喷哈2333]]></content>
+    <content type="text"><![CDATA[想为博客内未完成却仍然放出的内容道个歉 致每一个访问我博客的人 ——嗨！你好，我是虚之亚克洛，转眼间这个博客建立快2年了，想当初我只是觉得挺酷的然后尝试研究并搭建了一个Hexo博客。我很高兴直至今日仍有零零散散的人来到这个博客，不过主要都是因为CSGO动态队标而来的，不过这篇教程或许就是整个博客质量最高的了。不过我不会灰心，目前处于学业快速上升的阶段我得把握好机会，待时机成熟之日我会与大家分享我的心路历程的 虽然没人看哈哈 。——接下来我会在下面列出有问题的博文，感谢各位一直以来的支持 指访问这个博客 ，咱们有缘再会~ 完成度较高 CSGO系列 5分钟小教程系列 使用HMCL下载我的世界 有内容可进行更新补充 深海迷航联机教程 优质应用分享 nCoVapp 这个是我使用手机软件Fusion App自制的，效果还不错就分享出来了 超强内存清理软件 烂尾博文 自己挖的坑迟早会填回去的 我的世界指令集 Hexonext配置指南 电脑优化从入门到入土 在结尾想与点进来的各位分享一点东西Yaklostack#www.skyesc.com使用Hexo-theme-webstack制作的一个导航站，目前可能还不是很完善，因为可能是有点盲目跟风了，总想整点新活耍耍OTOO顺口好记#otoo.top一个4位数字短域，一样同上想整带活整出来的，目前自用，短域应该不至于枯竭，不过如果观察到有大量新数据或许会…变成5位！哈哈！OTOOBLOG诈尸，这是针对本博客进行的另一种更美化的拷贝？反正有服务器就开没服务器就关站咯~Tips：本人没啥技术只会套套模板，不喜勿喷哈2333]]></content>
       <categories>
         <category>公告</category>
       </categories>
@@ -55,20 +55,6 @@
       </categories>
       <tags>
         <tag>转载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[电脑优化从入门到入土]]></title>
-    <url>%2FBlog%2FPC_optimization_go_doorandsoil%2F</url>
-    <content type="text"><![CDATA[博文重制中……敬请期待]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>教程相关</tag>
-        <tag>萌新向</tag>
-        <tag>CC0</tag>
-        <tag>入门到入土</tag>
       </tags>
   </entry>
   <entry>
@@ -103,9 +89,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[我的世界指令集]]></title>
+    <title><![CDATA[我的世界ess权限组指令]]></title>
     <url>%2FBlog%2FMinecraft_Instruction_Set%2F</url>
-    <content type="text"><![CDATA[是时候了解一下指令了 我的世界指令集##半弃坑## 单人游戏常用指令创世神帮助 &lt;命令/页码&gt; 1help &lt;command/number&gt; 游戏模式 &lt;生存/创造/冒险/旁观&gt; 1gamemode &lt;survival/creative/adventure/spectator&gt; 游戏规则点我进入MC百科一键生成 1234常用规则：开启生物爆炸/开启死亡不掉落/阻止火焰蔓延gamerule mobGriefing falsegamerule keepInventory truegamerule doFireTick false 给予物品 &lt;所有玩家/最近实体/随机玩家/玩家&gt; &lt;minecraft:物品英文ID&gt; &lt;数量&gt; 1give &lt;@a/@p/@r/ID&gt; &lt;minecraft:ID&gt; &lt;count&gt; 多人游戏/服务器插件Essentials普通玩家经济12money 查询游戏币pay &lt;玩家&gt; &lt;金钱数（值）&gt; 给另外一位玩家转账 常用123helpop &lt;内容&gt; 求助OPafk AFK挂机状态ping &lt;文本/留空&gt; 测试消息 权限玩家作弊123fly 飞行gm &lt;0/1/2/3&gt; 游戏模式gm&lt;s/c/a/sp&gt; 游戏模式 经济给与\拿走\设置\重置一个玩家的金钱数 1eco &lt;give\take\reset&gt; &lt;玩家名&gt; [金钱数（值）] 仲裁123456antioch bui~手榴弹backup 启动回档ban &lt;玩家&gt; &lt;理由&gt; 禁止一名玩家进入服务器banip &lt;玩家\IP&gt; 禁止一个IP进入服务器invsee &lt;玩家&gt; [加任意字符查看装备] 查看别的玩家的背包kill &lt;玩家&gt; 权限组12345678910111213141516171819202122232425262728293031323334353637manselect world 选择world为需要更改权限的地图；mantogglevalidate 允许更改不在线的用户（若只更改在线的，则无需输入）；请确认输入此命令后server窗口显示如下字样：[INFO] Validade if player is online, now set to: false （玩家在线时才生效，现在设置为：否（意思就是不在线的也能修改了））[INFO] From now on you can edit players not connected... BUT: （从现在起你能编辑未连接的玩家…但是：）[INFO] From now on you should type the whole name of the player, correctly. （从现在开始你需要正确地输入被更改玩家的全名。）若显示为：[INFO] Validade if player is online, now set to: true则需要再输入一遍命令，确保为false（这样你才能修改不在线的）。以下是自行用户及组设置（man后接u是对用户，接g是对组设置）：manuadd 123 XXX 将玩家123添加到XXX用户组；manudel 123 将玩家123变为默认组；manuaddsub 123 XXX 将XXX用户组添加到玩家123的子用户组列表中；manudelsub 123 XXX 将XXX用户组从玩家123的子列表中剔除；manuaddp 123 essentials.* 为玩家123单独增加essentials.*权限（由于大部分权限都由Essentials基础插件提供，所以这是一般形式）；manudelp 123 essentials.* 删除玩家123拥有的essentials.*权限；manulistp 123 列出玩家123所拥有的权限；manucheckp 123 essentials.* 检查玩家123是否拥有essentials.*权限，并寻找出处（用户组）；manuaddv 123 prefix &amp;1 设置玩家123的prefix变量为&amp;1（变量目前有prefix（前缀）、suffix（尾缀）、build（破坏方块）三种，已有效）；manudelv 123 prefix 删除玩家123的prefix变量；manulistv 123 列出玩家123所拥有的变量（虽然无效，但看还是能看的）；manucheckv 123 prefix 查看玩家123的prefix变量属性（这里看的是用户组里的）；mangadd XXX 添加名为XXX的用户组；mangdel XXX 删除名为XXX的用户组；mangaddp XXX essentials.* 为用户组XXX增加essentials.*权限；mangdelp XXX essentials.* 删除用户组XXX拥有的essentials.*权限；manglistp XXX 列出用户组XXX所拥有的权限；mangcheckp XXX essentials.* 检查用户组XXX是否拥有essentials.*权限，并寻找出处；mangaddv XXX prefix &amp;1 设置用户组XXX的prefix变量为&amp;1；mangdelv XXX prefix 删除用户组XXX的prefix变量；manglistv XXX 列出用户组XXX所拥有的变量；mangcheckv XXX prefix 查看用户组XXX的prefix变量属性；mangaddi XXX1 XXX2 使用户组XXX1继承用户组XXX2的权限；mangdeli XXX1 XXX2 将用户组XXX2从用户组XXX1的继承列表中删除（这个命令经测试发现有问题，删除不了）；manpromote 123 XXX 将玩家123升级到XXX用户组；mandemote 123 XXX 将玩家123降级到XXX用户组（其实这两个命令都是改变组别的，升级降级无实在含义）；listgroups 列出目前所存在的用户组 如有漏缺请联系Yaklo补全 参考文章Minecraft插件百科-EssentialsMCBBS:Essentials权限插件如何设置权限组参考视频参考网站MC百科实用工具-指令生成器]]></content>
+    <content type="text"><![CDATA[之前烂尾的博文，但权限组指令还是很有用的 我的世界指令集##半弃坑## ess权限组的指令在网上还是有点难找的，至少在2019年的时候，其他的烂尾啦~如果有需要的话大伙直接翻到底部去看ess权限组的指令吧~ 单人游戏常用指令创世神帮助 &lt;命令/页码&gt; 1help &lt;command/number&gt; 游戏模式 &lt;生存/创造/冒险/旁观&gt; 1gamemode &lt;survival/creative/adventure/spectator&gt; 游戏规则点我进入MC百科一键生成 1234常用规则：开启生物爆炸/开启死亡不掉落/阻止火焰蔓延gamerule mobGriefing falsegamerule keepInventory truegamerule doFireTick false 给予物品 &lt;所有玩家/最近实体/随机玩家/玩家&gt; &lt;minecraft:物品英文ID&gt; &lt;数量&gt; 1give &lt;@a/@p/@r/ID&gt; &lt;minecraft:ID&gt; &lt;count&gt; 多人游戏/服务器插件Essentials普通玩家经济12money 查询游戏币pay &lt;玩家&gt; &lt;金钱数（值）&gt; 给另外一位玩家转账 常用123helpop &lt;内容&gt; 求助OPafk AFK挂机状态ping &lt;文本/留空&gt; 测试消息 权限玩家作弊123fly 飞行gm &lt;0/1/2/3&gt; 游戏模式gm&lt;s/c/a/sp&gt; 游戏模式 经济给与\拿走\设置\重置一个玩家的金钱数 1eco &lt;give\take\reset&gt; &lt;玩家名&gt; [金钱数（值）] 仲裁123456antioch bui~手榴弹backup 启动回档ban &lt;玩家&gt; &lt;理由&gt; 禁止一名玩家进入服务器banip &lt;玩家\IP&gt; 禁止一个IP进入服务器invsee &lt;玩家&gt; [加任意字符查看装备] 查看别的玩家的背包kill &lt;玩家&gt; 权限组12345678910111213141516171819202122232425262728293031323334353637manselect world 选择world为需要更改权限的地图；mantogglevalidate 允许更改不在线的用户（若只更改在线的，则无需输入）；请确认输入此命令后server窗口显示如下字样：[INFO] Validade if player is online, now set to: false （玩家在线时才生效，现在设置为：否（意思就是不在线的也能修改了））[INFO] From now on you can edit players not connected... BUT: （从现在起你能编辑未连接的玩家…但是：）[INFO] From now on you should type the whole name of the player, correctly. （从现在开始你需要正确地输入被更改玩家的全名。）若显示为：[INFO] Validade if player is online, now set to: true则需要再输入一遍命令，确保为false（这样你才能修改不在线的）。以下是自行用户及组设置（man后接u是对用户，接g是对组设置）：manuadd 123 XXX 将玩家123添加到XXX用户组；manudel 123 将玩家123变为默认组；manuaddsub 123 XXX 将XXX用户组添加到玩家123的子用户组列表中；manudelsub 123 XXX 将XXX用户组从玩家123的子列表中剔除；manuaddp 123 essentials.* 为玩家123单独增加essentials.*权限（由于大部分权限都由Essentials基础插件提供，所以这是一般形式）；manudelp 123 essentials.* 删除玩家123拥有的essentials.*权限；manulistp 123 列出玩家123所拥有的权限；manucheckp 123 essentials.* 检查玩家123是否拥有essentials.*权限，并寻找出处（用户组）；manuaddv 123 prefix &amp;1 设置玩家123的prefix变量为&amp;1（变量目前有prefix（前缀）、suffix（尾缀）、build（破坏方块）三种，已有效）；manudelv 123 prefix 删除玩家123的prefix变量；manulistv 123 列出玩家123所拥有的变量（虽然无效，但看还是能看的）；manucheckv 123 prefix 查看玩家123的prefix变量属性（这里看的是用户组里的）；mangadd XXX 添加名为XXX的用户组；mangdel XXX 删除名为XXX的用户组；mangaddp XXX essentials.* 为用户组XXX增加essentials.*权限；mangdelp XXX essentials.* 删除用户组XXX拥有的essentials.*权限；manglistp XXX 列出用户组XXX所拥有的权限；mangcheckp XXX essentials.* 检查用户组XXX是否拥有essentials.*权限，并寻找出处；mangaddv XXX prefix &amp;1 设置用户组XXX的prefix变量为&amp;1；mangdelv XXX prefix 删除用户组XXX的prefix变量；manglistv XXX 列出用户组XXX所拥有的变量；mangcheckv XXX prefix 查看用户组XXX的prefix变量属性；mangaddi XXX1 XXX2 使用户组XXX1继承用户组XXX2的权限；mangdeli XXX1 XXX2 将用户组XXX2从用户组XXX1的继承列表中删除（这个命令经测试发现有问题，删除不了）；manpromote 123 XXX 将玩家123升级到XXX用户组；mandemote 123 XXX 将玩家123降级到XXX用户组（其实这两个命令都是改变组别的，升级降级无实在含义）；listgroups 列出目前所存在的用户组 如有漏缺请联系Yaklo补全 参考文章Minecraft插件百科-EssentialsMCBBS:Essentials权限插件如何设置权限组参考视频参考网站MC百科实用工具-指令生成器]]></content>
       <categories>
         <category>游戏</category>
       </categories>
@@ -164,12 +150,12 @@
         <category>软件</category>
       </categories>
       <tags>
+        <tag>Uplay</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
         <tag>CC0</tag>
-        <tag>Uplay</tag>
       </tags>
   </entry>
   <entry>
