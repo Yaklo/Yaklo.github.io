@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yaklo.skyesc.com/yaklo/about/index.html</loc>
+    
+    <lastmod>2022-03-23T18:26:57.455Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yaklo.skyesc.com/yaklo/link/index.html</loc>
+    
+    <lastmod>2022-03-23T18:21:54.835Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yaklo.skyesc.com/Blog/Minecraft_Instruction_Set/</loc>
     
     <lastmod>2022-02-13T05:33:39.972Z</lastmod>
@@ -93,13 +107,6 @@
   </url>
   
   <url>
-    <loc>https://yaklo.skyesc.com/yaklo/about/index.html</loc>
-    
-    <lastmod>2020-01-31T08:59:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://yaklo.skyesc.com/Blog/Super_strong_Mem_Reduct/</loc>
     
     <lastmod>2020-01-17T23:17:00.000Z</lastmod>
@@ -131,13 +138,6 @@
     <loc>https://yaklo.skyesc.com/yaklo/admin/index.html</loc>
     
     <lastmod>2019-11-04T15:42:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yaklo.skyesc.com/yaklo/link/index.html</loc>
-    
-    <lastmod>2019-11-04T15:31:16.000Z</lastmod>
     
   </url>
   
