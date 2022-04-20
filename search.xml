@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[原神 2.6 私服启动教程]]></title>
+    <url>%2FBlog%2FGenshin2-6-Grasscutters%2F</url>
+    <content type="text"><![CDATA[或许仅适用2.6？ 原神 2.6 私服启动教程 请注意：本文默认您会过墙，所有链接能贴官网的都贴官网！不要错过文中的超链接~ 系统要求Windows 10 11文中以win11为口吻，设置大抵相同环境要求Java8该内容取自 Github：Grasscutter使用其他Java版本可能会报错！但仍值得一试。MongoDB一路默认安装无需进行修改，默认情况下应该是开机自启Python3.8+一路默认安装无需进行修改Mitmproxy一路默认安装无需进行修改文件下载原神 国际服原神2.6私服服务端为了您能解压这份压缩包您可能还需要安装 7-zip私服文件和原发布者的不一样，这是因为我添加了部分原发布者漏掉的脚本以及整合了物品ID，其余内容均一致 在您安装好以上依赖完后来跟我一起操作吧 电脑代理设置设置 &gt; 网络和 Internet &gt; 代理 &gt; 手动设置 &gt; 使用代理服务器[设置]代理IP地址：127.0.0.1 端口：8080关闭 请勿将代理服务器用于本地(Intranet)地址注意：打开代理后电脑其他软件可能会没有网络！ 服务器启动与代理解压 原神2.6私服服务端 并进入 grasscutter_srv 文件夹默认Java路径C:\Program Files\Java\jdk1.8.0_202\bin\java.exe如果您的版本不同或修改了路径请手动修改run.bat文件，您会知道如何修改的启动程序 run.bat proxy.bat 无先后顺序启动完后访问 mitm.it 安装证书 Get mitmproxy-ca-cert.p12移动服务器文件夹后需要重新安装！ 服务器链接CMD控制台输入 account create 账户ID 游戏UID例如 account create Yaklo 1启动 原神2.6国际服登录账号是你自己创建的账户ID，密码随便填不能空 服务器关闭run.bat 开启的CMD窗口输入 stop 关闭服务器proxy.bat 开启的CMD窗口使用 Ctrl C 或直接叉掉即可 指令大全123456789101112131415161718192021222324252627282930313233343536373839404142可用的命令：broadcast 向所有玩家发送消息用法： broadcast &lt;message&gt;别名： bsendmessage 向玩家发送消息用法： sendmessage &lt;player&gt; &lt;message&gt;别名： sendmsg msggivechar 给玩家一个指定的角色用法： givechar &lt;playerId&gt; &lt;avatarId&gt; [level]别名： giveckillall 杀死所有实体用法： killall [playerUid] [sceneId]reload 重新加载服务器配置用法： reloadgive 给你或指定的玩家一个物品用法： give [player] &lt;itemId|itemName&gt; [金额]别名： g item giveitempermission 给予或删除一个用户的权限用法： permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt; giveitem permission 给予或删除一个用户的权限用法: permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt;help 发送帮助信息或显示关于指定命令的信息用法: help [command]kick 把指定的玩家从服务器中踢出去(WIP)用法: kick &lt;player&gt;stop 停止服务器用法: stopaccount 修改用户账户用法: account &lt;create|delete&gt; &lt;username&gt; [uid] 通过www.DeepL.com/Translator（免费版）翻译 疑难解答Q：服务器无法开启A：可能的原因是已经有一个服务器正在运行，或您手动启动了jar程序，也可能是未正常关闭服务器导致的。解决方法：关闭之前的服务器/打开 任务管理器 选择 详细信息 找到 java.exe 或相关 右键结束进程树。 Q：登录界面报错，包括密码错误或502之类的A：Mitmproxy 是否有安装 proxy.bat 是否有启动 电脑是否有设置代理 127.0.0.1:8080 Q：输完账号密码登录转完圈圈无反应A：启动程序 proxy.bat 后访问 mitm.it 安装证书 Get mitmproxy-ca-cert.p12 然后重开游戏 参考文章Telegram：Wansn参考存储库Github：Grasscutter]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>教程相关</tag>
+        <tag>萌新向</tag>
+        <tag>原神</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Typecho后台登录404解决方案]]></title>
+    <url>%2FBlog%2FTypecho-admin404%2F</url>
+    <content type="text"><![CDATA[↑芜湖↑ Typecho后台登录404解决方案 先说结论，试试这个伪静态！ 123456if (-f $request_filename/index.php)&#123; rewrite (.*) $1/index.php;&#125;if (!-f $request_filename)&#123; rewrite (.*) /index.php;&#125; 测试环境：Windows Server 2012 R2 宝塔7.5.0 Nginx1.21.1 PHP7.3/7.4 成功案例Github:typecho-issues#1407参考文章CSDN：Typecho安装后后台界面和文章链接均为404错误的解决方法]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程相关</tag>
+        <tag>Typecho</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[雨中冒险2神器彩蛋与装备大全]]></title>
     <url>%2FBlog%2FRisk-of-Rain-2-Artifacts-All%2F</url>
     <content type="text"><![CDATA[新的流派，由你来书写 雨中冒险2神器彩蛋与装备大全 如果下图因网站透明度而看不清可右键图片复制链接粘贴到新页面打开放大，或前往OTOOBLOG阅览。 装备大全 彩蛋本单 位置补充 参考文章Bilibili：【雨中冒险2】最新道具装备统计解析表！参考视频Bilibili：【雨中冒险2】知道神器的图案是哪来的吗？全神器图案出处！参考网站OTOOBLOG：雨中冒险2神器彩蛋与装备大全]]></content>
