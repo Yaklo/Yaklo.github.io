@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="虚之亚克洛·Yaklo">
 <meta property="og:description" content="或许仅适用2.6？">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2022-04-20T17:25:14.496Z">
+<meta property="og:updated_time" content="2022-04-20T17:31:10.865Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="原神 2.6 私服启动教程">
 <meta name="twitter:description" content="或许仅适用2.6？">
@@ -385,7 +385,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2022-04-21T01:25:14+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2022-04-21T01:31:10+08:00">
                 2022-04-21
               </time>
             
@@ -435,7 +435,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1k
+                  1.3k
                 </span>
               
 
@@ -485,16 +485,24 @@
 <blockquote>
 <p>在您安装好以上依赖完后来跟我一起操作吧</p>
 </blockquote>
-<h1 id="电脑代理设置"><a href="#电脑代理设置" class="headerlink" title="电脑代理设置"></a>电脑代理设置</h1><p>设置 &gt; 网络和 Internet &gt; 代理 &gt; 手动设置 &gt; 使用代理服务器[设置]<br>代理IP地址：<strong>127.0.0.1</strong> 端口：<strong>8080</strong><br><strong>关闭</strong> 请勿将代理服务器用于本地(Intranet)地址<br><em>注意：打开代理后电脑其他软件可能会没有网络！</em></p>
+<blockquote>
+<p>请注意：本文默认您会过墙，所有链接能贴官网的都贴官网！<br>不要错过文中的超链接~</p>
+</blockquote>
+<p>系统要求<br>Windows 10 11<br><em>文中以win11为口吻，设置大抵相同</em><br>环境要求<br><a href="https://mirrors.huaweicloud.com/java/jdk/8u202-b08/" target="_blank" rel="noopener">Java8</a><br><em>该内容取自 <a href="https://github.com/Grasscutters/Grasscutter" target="_blank" rel="noopener">Github：Grasscutter</a></em><br><em>使用其他Java版本可能会报错！但仍值得一试。</em><br><a href="https://www.mongodb.com/try/download/community?tck=docs_server" target="_blank" rel="noopener">MongoDB</a><br><em>一路默认安装无需进行修改，默认情况下应该是开机自启</em><br><a href="https://www.python.org/downloads/" target="_blank" rel="noopener">Python3.8+</a><br><em>一路默认安装无需进行修改</em><br><a href="https://mitmproxy.org/" target="_blank" rel="noopener">Mitmproxy</a><br><em>一路默认安装无需进行修改</em><br>文件下载<br><a href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener">原神 国际服</a><br><a href="https://mega.nz/folder/NuRjCbDY#1j37HzPhGVczgL78F6Hnsg" target="_blank" rel="noopener">原神2.6私服服务端</a><br><em>为了您能解压这份压缩包您可能还需要安装</em> <strong><a href="https://www.7-zip.org/" target="_blank" rel="noopener">7-zip</a></strong><br><em>私服文件和原发布者的不一样，这是因为我添加了部分原发布者漏掉的脚本以及整合了物品ID，其余内容均一致</em></p>
+<blockquote>
+<p>在您安装好以上依赖完后来跟我一起操作吧</p>
+</blockquote>
+<h1 id="电脑代理设置"><a href="#电脑代理设置" class="headerlink" title="电脑代理设置"></a>电脑代理设置</h1><p>设置 &gt; 网络和 Internet &gt; 代理 &gt; 手动设置 &gt; 使用代理服务器[设置]<br><em>进行以下配置</em><br>代理IP地址：<strong>127.0.0.1</strong> 端口：<strong>8080</strong><br><strong>关闭</strong> <em>*请勿将代理服务器用于本地(Intranet)地址<br>*注意：打开代理后电脑其他软件可能会没有网络！</em></p>
 <h1 id="服务器启动与代理"><a href="#服务器启动与代理" class="headerlink" title="服务器启动与代理"></a>服务器启动与代理</h1><p>解压 <strong>原神2.6私服服务端</strong> 并进入 <strong>grasscutter_srv</strong> 文件夹<br><em>默认Java路径C:\Program Files\Java\jdk1.8.0_202\bin\java.exe</em><br><em>如果您的版本不同或修改了路径请手动修改run.bat文件，您会知道如何修改的</em><br>启动程序 <strong>run.bat</strong> <strong>proxy.bat</strong> 无先后顺序<br>启动完后访问 <strong><a href="http://mitm.it/" target="_blank" rel="noopener">mitm.it</a></strong> 安装证书 <strong>Get mitmproxy-ca-cert.p12</strong><br><em>该内容以文件形式下载到您的电脑上，请手动安装</em><br><em>移动服务器文件夹后需要重新安装！</em></p>
 <h1 id="账号创建与服务器连接"><a href="#账号创建与服务器连接" class="headerlink" title="账号创建与服务器连接"></a>账号创建与服务器连接</h1><p>CMD控制台输入 <em>account create 账户ID 游戏UID</em><br><em>例如 account create Yaklo 1</em><br>启动 <strong>原神2.6国际服</strong><br>登录账号是你自己创建的账户ID，密码随便填不能空</p>
 <h1 id="服务器关闭"><a href="#服务器关闭" class="headerlink" title="服务器关闭"></a>服务器关闭</h1><p>run.bat 开启的CMD窗口输入 <strong>stop</strong> 关闭服务器<br>proxy.bat 开启的CMD窗口使用 <strong>Ctrl C</strong> 或直接叉掉即可</p>
-<h1 id="指令大全"><a href="#指令大全" class="headerlink" title="指令大全"></a>指令大全</h1><p><em>物品ID包含在<a href="https://mega.nz/folder/NuRjCbDY#1j37HzPhGVczgL78F6Hnsg" target="_blank" rel="noopener">原神2.6私服服务端</a>内</em></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">可用的命令：</span><br><span class="line">broadcast 向所有玩家发送消息</span><br><span class="line">用法： broadcast &lt;message&gt;</span><br><span class="line">别名： b</span><br><span class="line"></span><br><span class="line">sendmessage 向玩家发送消息</span><br><span class="line">用法： sendmessage &lt;player&gt; &lt;message&gt;</span><br><span class="line">别名： sendmsg msg</span><br><span class="line"></span><br><span class="line">givechar 给玩家一个指定的角色</span><br><span class="line">用法： givechar &lt;playerId&gt; &lt;avatarId&gt; [level]</span><br><span class="line">别名： givec</span><br><span class="line"></span><br><span class="line">killall 杀死所有实体</span><br><span class="line">用法： killall [playerUid] [sceneId]</span><br><span class="line"></span><br><span class="line">reload 重新加载服务器配置</span><br><span class="line">用法： reload</span><br><span class="line"></span><br><span class="line">give 给你或指定的玩家一个物品</span><br><span class="line">用法： give [player] &lt;itemId|itemName&gt; [金额]</span><br><span class="line">别名： g item giveitem</span><br><span class="line"></span><br><span class="line">permission 给予或删除一个用户的权限</span><br><span class="line">用法： permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt; </span><br><span class="line"></span><br><span class="line">giveitem permission 给予或删除一个用户的权限</span><br><span class="line">用法: permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt;</span><br><span class="line"></span><br><span class="line">help 发送帮助信息或显示关于指定命令的信息</span><br><span class="line">用法: help [command]</span><br><span class="line"></span><br><span class="line">kick 把指定的玩家从服务器中踢出去(WIP)</span><br><span class="line">用法: kick &lt;player&gt;</span><br><span class="line"></span><br><span class="line">stop 停止服务器</span><br><span class="line">用法: stop</span><br><span class="line"></span><br><span class="line">account 修改用户账户</span><br><span class="line">用法: account &lt;create|delete&gt; &lt;username&gt; [uid]        </span><br><span class="line"></span><br><span class="line">通过www.DeepL.com/Translator（免费版）翻译</span><br></pre></td></tr></table></figure>
-
 <h1 id="疑难解答"><a href="#疑难解答" class="headerlink" title="疑难解答"></a>疑难解答</h1><p>Q：服务器无法开启<br>A：可能的原因是已经有一个服务器正在运行，或您手动启动了jar程序，也可能是未正常关闭服务器导致的。<br>解决方法：关闭之前的服务器/打开 <strong>任务管理器</strong> 选择 <strong>详细信息</strong> 找到 java.exe 或相关 右键结束进程树。</p>
 <p>Q：登录界面报错，包括密码错误或502之类的<br>A：<a href="https://mitmproxy.org/" target="_blank" rel="noopener">Mitmproxy</a> 是否有安装 <strong>proxy.bat</strong> 是否有启动 电脑是否有设置代理 127.0.0.1:8080</p>
 <p>Q：输完账号密码登录转完圈圈无反应<br>A：启动程序 <strong>proxy.bat</strong> 后访问 <strong><a href="http://mitm.it/" target="_blank" rel="noopener">mitm.it</a></strong> 安装证书 <strong>Get mitmproxy-ca-cert.p12</strong> 然后重开游戏</p>
+<p>Q：登录后更新资源报错<br>A：开个加速器试试？或先正常登录下资源。</p>
+<h1 id="指令大全"><a href="#指令大全" class="headerlink" title="指令大全"></a>指令大全</h1><p><em>物品ID包含在<a href="https://mega.nz/folder/NuRjCbDY#1j37HzPhGVczgL78F6Hnsg" target="_blank" rel="noopener">原神2.6私服服务端</a>内</em></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">可用的命令：</span><br><span class="line">broadcast 向所有玩家发送消息</span><br><span class="line">用法： broadcast &lt;message&gt;</span><br><span class="line">别名： b</span><br><span class="line"></span><br><span class="line">sendmessage 向玩家发送消息</span><br><span class="line">用法： sendmessage &lt;player&gt; &lt;message&gt;</span><br><span class="line">别名： sendmsg msg</span><br><span class="line"></span><br><span class="line">givechar 给玩家一个指定的角色</span><br><span class="line">用法： givechar &lt;playerId&gt; &lt;avatarId&gt; [level]</span><br><span class="line">别名： givec</span><br><span class="line"></span><br><span class="line">killall 杀死所有实体</span><br><span class="line">用法： killall [playerUid] [sceneId]</span><br><span class="line"></span><br><span class="line">reload 重新加载服务器配置</span><br><span class="line">用法： reload</span><br><span class="line"></span><br><span class="line">give 给你或指定的玩家一个物品</span><br><span class="line">用法： give [player] &lt;itemId|itemName&gt; [金额]</span><br><span class="line">别名： g item giveitem</span><br><span class="line"></span><br><span class="line">permission 给予或删除一个用户的权限</span><br><span class="line">用法： permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt; </span><br><span class="line"></span><br><span class="line">giveitem permission 给予或删除一个用户的权限</span><br><span class="line">用法: permission &lt;add|remove&gt; &lt;username&gt; &lt;permission&gt;</span><br><span class="line"></span><br><span class="line">help 发送帮助信息或显示关于指定命令的信息</span><br><span class="line">用法: help [command]</span><br><span class="line"></span><br><span class="line">kick 把指定的玩家从服务器中踢出去(WIP)</span><br><span class="line">用法: kick &lt;player&gt;</span><br><span class="line"></span><br><span class="line">stop 停止服务器</span><br><span class="line">用法: stop</span><br><span class="line"></span><br><span class="line">account 修改用户账户</span><br><span class="line">用法: account &lt;create|delete&gt; &lt;username&gt; [uid]        </span><br><span class="line"></span><br><span class="line">通过www.DeepL.com/Translator（免费版）翻译</span><br></pre></td></tr></table></figure>
+
 <blockquote>
 <p><em>参考文章</em><br><em><a href="https://t.me/genshinhelper/13738" target="_blank" rel="noopener">Telegram：Wansn</a></em><br><em>参考存储库</em><br><em><a href="https://github.com/Grasscutters/Grasscutter" target="_blank" rel="noopener">Github：Grasscutter</a></em></p>
 </blockquote>
@@ -820,7 +828,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#电脑代理设置"><span class="nav-text">电脑代理设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器启动与代理"><span class="nav-text">服务器启动与代理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#账号创建与服务器连接"><span class="nav-text">账号创建与服务器连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器关闭"><span class="nav-text">服务器关闭</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#指令大全"><span class="nav-text">指令大全</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#疑难解答"><span class="nav-text">疑难解答</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#电脑代理设置"><span class="nav-text">电脑代理设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器启动与代理"><span class="nav-text">服务器启动与代理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#账号创建与服务器连接"><span class="nav-text">账号创建与服务器连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器关闭"><span class="nav-text">服务器关闭</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#疑难解答"><span class="nav-text">疑难解答</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#指令大全"><span class="nav-text">指令大全</span></a></li></ol></div>
             
 
           </div>
@@ -861,7 +869,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">11.3k</span>
+    <span title="Site words total count">11.6k</span>
   
 </div>
 
