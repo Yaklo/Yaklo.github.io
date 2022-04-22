@@ -12,3 +12,4 @@ Disallow: /yaklo/Video-copy
 Disallow: /yaklo/project
 Disallow: /niceskm
 Disallow: /skm
+Disallow: /Blog/Genshin2-6-Grasscutters/
