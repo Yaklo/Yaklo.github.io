@@ -94,7 +94,7 @@
 <meta property="og:description" content="请注意：本文默认您有过人的技术！">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s1.ax1x.com/2022/04/26/LHdaLR.png">
-<meta property="og:updated_time" content="2022-04-26T10:46:51.873Z">
+<meta property="og:updated_time" content="2022-04-26T11:02:07.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="原神 2.6 私服启动教程2.0">
 <meta name="twitter:description" content="请注意：本文默认您有过人的技术！">
@@ -387,7 +387,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2022-04-26T18:46:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2022-04-26T19:02:07+08:00">
                 2022-04-26
               </time>
             
@@ -499,7 +499,11 @@
 
 <p><em>这是使用文中<a href="https://bell-sw.com/pages/downloads/#/java-17-lts" target="_blank" rel="noopener">Java17</a>安装的默认目录，不管如何我都推荐您去校对一下与您实际安装是否有出处。如果您的Java不是默认目录或有出处请自行修改一下！</em><br>启动 <strong>proxy.bat</strong><br><em>该步骤启动 Mitmproxy 代理</em></p>
 <h1 id="电脑代理设置"><a href="#电脑代理设置" class="headerlink" title="电脑代理设置"></a>电脑代理设置</h1><p>设置 &gt; 网络和 Internet &gt; 代理 &gt; 手动设置 &gt; 使用代理服务器[设置]<br><em>进行以下配置</em><br>代理IP地址：<strong>127.0.0.1</strong> 端口：<strong>8080</strong><br><strong>关闭选项 -&gt; 请勿将代理服务器用于本地(Intranet)地址</strong></p>
-<h1 id="证书安装"><a href="#证书安装" class="headerlink" title="证书安装"></a>证书安装</h1><p><em>设置好电脑代理并启动proxy.bat后方可访问</em><br>访问 <strong><a href="http://mitm.it/" target="_blank" rel="noopener">mitm.it</a></strong> 点击并下载 <strong>Get mitmproxy-ca-cert.p12</strong> 在下载文件夹双击该文件安装证书<br>安装证书时请修改证书存储目录，具体操作如下：<br><strong>证书存储</strong> 将所有的证书都放入下列存储 浏览并选择 <strong>受信任的根证书颁发机构</strong><br><strong>其余步骤直接默认点击下一步即可</strong><br><em>一个IP一个证书！例如远程联机和本地局域网</em></p>
+<h1 id="证书安装"><a href="#证书安装" class="headerlink" title="证书安装"></a>证书安装</h1><p><em>设置好电脑代理并启动proxy.bat后方可访问</em><br>访问 <strong><a href="http://mitm.it/" target="_blank" rel="noopener">mitm.it</a></strong> 点击并下载 <strong>Get mitmproxy-ca-cert.p12</strong> 在下载文件夹双击该文件安装证书<br>安装证书时请修改<strong><code>证书存储</code></strong>目录，<strong>具体操作如下：</strong></p>
+<ul>
+<li>安装时点击下一步直到<strong><code>证书存储</code></strong>页面。将所有的证书都放入下列存储 浏览并选择 <strong>受信任的根证书颁发机构</strong></li>
+</ul>
+<p> <strong>其余步骤直接默认点击下一步即可</strong><br><em>一个IP一个证书！例如远程联机和本地局域网</em></p>
 <h1 id="账号创建与服务器连接"><a href="#账号创建与服务器连接" class="headerlink" title="账号创建与服务器连接"></a>账号创建与服务器连接</h1><p>在 <strong>run.bat</strong> 启动的CMD控制台输入 <strong><code>account create 账户ID 游戏UID</code></strong> 以创建账号<br>例：<code>account create Paimon 2020</code><br>启动 <strong>原神2.6国际服</strong><br>登录账号是你自己创建的账户ID，密码随便填即可<br>给自己权限：<code>permission add 登录账号 *</code><br>例：<code>permission add Paimon *</code><br><em>`</em>`代表着全部权限*<br><em>如果给不了权限请先进入游戏看完CG后再给予权限</em><br><em>账户ID不分大小写，实际使用时不用去刻意大小写</em></p>
 <h1 id="服务器更新"><a href="#服务器更新" class="headerlink" title="服务器更新"></a>服务器更新</h1><p>前往存储库 <a href="https://github.com/Grasscutters/Grasscutter" target="_blank" rel="noopener">Github：Grasscutter</a> 下载最新的Releases<br><em>警告，1.0.0相较于本文提供的端版本较老，就不要去尝试了</em><br>或是自行编译或自行寻找他人编译的grasscutter.jar<br><em>使用他人编译的端时请注意安全！</em><br>最后您仅需要替换同名文件 <strong>grasscutter.jar</strong> 即可<br><em>如果文件名不是grasscutter.jar请重命名，或修改run.bat</em><br><em>必要时可删除 config.json ，服务器会重新生成！</em></p>
 <h1 id="游戏资源更新及热门疑问"><a href="#游戏资源更新及热门疑问" class="headerlink" title="游戏资源更新及热门疑问"></a>游戏资源更新及热门疑问</h1><p><em>仅供参考，不一定能解决。</em><br><strong>Q：登录后游戏资源更新不动</strong><br>A：推荐使用 <a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener">羽翼城：UsbEAm Hosts Editor 多平台hosts修改 V3.62</a> 解决<br>使用教程：点击左下角手柄 &gt; 游戏内相关 &gt; 原神国服外服加快下载及更新速度 &gt; 检测延时 &gt; 双击hosts节点测速 &gt; 选择合适的节点<strong>应用选中</strong></p>
