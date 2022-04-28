@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="虚之亚克洛·Yaklo">
 <meta property="og:description" content="如已过开服大关，联机必能轻松掌握！">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2022-04-28T15:57:04.135Z">
+<meta property="og:updated_time" content="2022-04-28T16:06:35.074Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="原神 2.6 私服多人联机教程">
 <meta name="twitter:description" content="如已过开服大关，联机必能轻松掌握！">
@@ -385,8 +385,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2022-04-28T23:57:04+08:00">
-                2022-04-28
+              <time title="更新于" itemprop="dateModified" datetime="2022-04-29T00:06:35+08:00">
+                2022-04-29
               </time>
             
           </span>
@@ -481,7 +481,7 @@
 <blockquote>
 <p><strong>请注意：每个人或许步骤相同但也许也会遇到各种各样神奇的问题</strong><br><strong>如果您未完成前置任务请先去完成前置任务：开启本地服务器<a href="/Blog/Genshin2-6-Grasscutters">原神 2.6 私服启动教程2.0</a></strong><br>该教程作为<a href="/Blog/Genshin2-6-Grasscutters">原神 2.6 私服启动教程2.0</a>的扩展，但其实十分简单~</p>
 </blockquote>
-<h1 id="联机要求"><a href="#联机要求" class="headerlink" title="联机要求"></a>联机要求</h1><p><a href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener">原神 国际服</a></p>
+<h1 id="联机要求"><a href="#联机要求" class="headerlink" title="联机要求"></a>联机要求</h1><p><a href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener">原神 国际服</a><br>你远程协助你的朋友（不是</p>
 <h1 id="本地局域网联机服务器设置"><a href="#本地局域网联机服务器设置" class="headerlink" title="本地局域网联机服务器设置"></a>本地局域网联机服务器设置</h1><p>修改 <strong>config.json</strong> 文件里面<strong>两项</strong> <code>PublicIp</code> 为<strong>您电脑的IP地址</strong><br>如何简单快速直接暴力的获取您电脑的IP地址？<br>不用<code>CMD&gt; ipconfig</code>您直接运行<strong>任务管理器</strong>即可<br>按下这三个按键即可打开任务管理器<code>Ctrl Shift Esc</code><em>Win10用户也可以右键任务栏</em><br>在任务管理器窗口顶上选择<strong>性能</strong>，找到<strong>以太网</strong>，里面显示的<strong>IPv4</strong>地址即是您电脑的IP地址<br><em>如果有多个以太网您只需在意哪个在跑流量在使用就行</em></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"PublicIp"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line">↓修改为</span><br><span class="line"><span class="string">"PublicIp"</span>: <span class="string">"您电脑的IP地址"</span>,</span><br><span class="line">↓例如</span><br><span class="line"><span class="string">"PublicIp"</span>: <span class="string">"192.168.22.33"</span>,</span><br></pre></td></tr></table></figure>
 
@@ -517,7 +517,7 @@
 <h1 id="本地局域网联机-·-IOS"><a href="#本地局域网联机-·-IOS" class="headerlink" title="本地局域网联机 · IOS"></a>本地局域网联机 · IOS</h1><blockquote>
 <p>由于我并没有IOS设备所以引用<strong>ang cheng</strong>大佬在TG群的教程<br>1、代理运行后，通过pc访问mitm.it并下载ios的证书文件<br>2、把ios证书文件发到邮箱<br>3、手机通过浏览器访问邮箱，读取证书文件并安装<br>4、设置-&gt;关于本机-&gt;证书信任设置，开启对mitmproxy完全信任<br>5、手机连接wifi，设置http代理为手动，填写运行proxy服务器的地址和端口<br>6、运行手机客户端，进入游戏<br><em>教程来自<a href="https://t.me/genshinhelper/36829" target="_blank" rel="noopener">Telegram：ang cheng</a></em></p>
 </blockquote>
-<h1 id="远程联机Windows-·-ZeroTier"><a href="#远程联机Windows-·-ZeroTier" class="headerlink" title="远程联机Windows · ZeroTier"></a>远程联机Windows · ZeroTier</h1><p>远程联机要求：最好拥有公网IP，否则不好穿透网络<br>下载<a href="https://www.zerotier.com/download/" target="_blank" rel="noopener">ZeroTier</a><br>Q：为什么推荐使用ZeroTier而且还是在有公网IP的情况下？<br>A：因为国内管的比较严，不管是服务器还是家宽，更何况国际服的域名以及下载代理证书的网站域名都没有备案，国内可能会给拦截，顺便建立这样一个虚拟局域网不需要去开放端口，对网络环境也安全些。<br>ZeroTier使用教程请百度，后期我会考虑加入ZeroTier的使用教程，现在先摸了<br>网络上的教程一定不会教你打开ZeroTier的防火墙，不打开会导致虽然加入了网络但实际仍然不通的情况！</p>
+<h1 id="远程联机Windows-·-ZeroTier"><a href="#远程联机Windows-·-ZeroTier" class="headerlink" title="远程联机Windows · ZeroTier"></a>远程联机Windows · ZeroTier</h1><p>远程联机要求：最好拥有公网IP，否则不好穿透网络<br>下载<a href="https://www.zerotier.com/download/" target="_blank" rel="noopener">ZeroTier</a><br>Q：为什么推荐使用ZeroTier而且还是在有公网IP的情况下？<br>A：因为国内管的比较严，不管是服务器还是家宽，更何况国际服的域名以及下载代理证书的网站域名都没有备案，国内可能会给拦截，顺便建立这样一个虚拟局域网不需要去开放端口，对网络环境也相对安全些。<br>ZeroTier使用教程请百度，后期我会考虑加入ZeroTier的使用教程，现在先摸了<br>网络上的教程一定不会教你打开ZeroTier的防火墙，不打开会导致虽然加入了网络但实际仍然不通的情况！</p>
 <blockquote>
 <p>打开系统对ZeroTier的防火墙<br>通过系统搜索并打开<strong>高级安全 Windows Defender 防火墙</strong><br>点击主页的<strong>Windows Defender 防火墙属性</strong><br>在<strong>域、专用、公用</strong>里的<strong>受保护的网络连接</strong>里取消勾选ZeroTier随后确定保存<br><em>由于是虚拟局域网，所以防火墙无关紧要</em><br>服务器设置修改及远程联机等配置可以参考局域网的教程<br>“PublicIp”这里的IP要改为ZeroTier分配的IP</p>
 </blockquote>
