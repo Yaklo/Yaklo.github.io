@@ -94,7 +94,7 @@
 <meta property="og:description" content="开服路途艰难，你的时间宝贵。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://s1.ax1x.com/2022/04/26/LHdaLR.png">
-<meta property="og:updated_time" content="2022-05-03T09:32:50.318Z">
+<meta property="og:updated_time" content="2022-05-03T09:57:01.875Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="原神 2.6 私服启动教程2.2">
 <meta name="twitter:description" content="开服路途艰难，你的时间宝贵。">
@@ -387,7 +387,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2022-05-03T17:32:50+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2022-05-03T17:57:01+08:00">
                 2022-05-03
               </time>
             
@@ -437,7 +437,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  3.8k
+                  3.9k
                 </span>
               
 
@@ -523,7 +523,7 @@
 <h2 id="服装替换修复"><a href="#服装替换修复" class="headerlink" title="服装替换修复"></a>服装替换修复</h2><p>下载 <strong>AvatarCostumeExcelConfigData.json</strong> 文件<br>替换此json到<code>.\resources\ExcelBinOutput</code>下即可解决无法替换服装的问题</p>
 <h2 id="商店尝鲜-amp-战利品掉落"><a href="#商店尝鲜-amp-战利品掉落" class="headerlink" title="商店尝鲜&amp;战利品掉落"></a>商店尝鲜&amp;战利品掉落</h2><p>下载 <strong>Shop.json</strong>、<strong>Drop.json</strong> 文件 <code>支持DIY</code><br>将该文件拷贝到目录<code>.\data</code><br>大部分商店都已支持并且为<strong>原版内容</strong> <code>v0.2</code> <em>这个文件真的很神奇，大伙有兴趣可以打开看看</em><br>战利品掉落已支持<strong>更多生物</strong> <code>v0.3</code><br><em>本教程暂不提供该OTA内容修改教程，<strong>如有能力可以自行研究文件进行修改</strong>.</em></p>
 <h2 id="抽卡历史"><a href="#抽卡历史" class="headerlink" title="抽卡历史"></a>抽卡历史</h2><p>下载 <strong>OTA抽卡历史.7z</strong> 文件<br>使用压缩包 <code>.\data</code> 将服务环境 <code>.\data</code> 覆盖</p>
-<h1 id="深入"><a href="#深入" class="headerlink" title="深入"></a>深入</h1><h2 id="卡池修改"><a href="#卡池修改" class="headerlink" title="卡池修改"></a>卡池修改</h2><p>卡池配置文件在服务器环境文件 <code>\data\Banners.json</code> 中，其中:<br><code>gachaType=200,scheduleId=893</code>的为常驻池<br><code>gachaType=301,scheduleId=903</code>的为角色UP池 (多UP: 增加<code>gachaType</code>为 302,303,304… 的条目即可)<br><code>gachaType=400,scheduleId=913</code>的为武器UP池<br><code>rateUpItems1</code>为UP五星，<code>rateUpItems2</code>为UP四星，对应<strong>物品ID</strong>在<code>Handbook_CHS.txt</code>中可以找到<br><em>可选</em> 修改卡池封面需修改<code>prefabPath</code> <code>previewPrefabPath</code> <code>titlePath</code>中的 <code>A0**</code> 为对应的卡池 id（在<code>卡池顺序.xlsx</code>中）<br><code>costItem</code>为抽卡耗费的货币名称 <strong>223</strong>纠缠之缘，<strong>224</strong>相遇之缘 <em>202摩拉（整活）</em><br><code>beginTime</code> <code>endTime</code>为卡池开始 / 结束的时间戳<br><code>softPity</code>最少几次出<code>hardPity</code>最多几次出<code>eventChance</code>歪的概率 %<br><em>如果没有的话可以自己加上</em></p>
+<h1 id="深入"><a href="#深入" class="headerlink" title="深入"></a>深入</h1><h2 id="卡池修改"><a href="#卡池修改" class="headerlink" title="卡池修改"></a>卡池修改</h2><p>卡池配置文件在服务器环境文件 <code>\data\Banners.json</code> 中，其中:<br><code>gachaType=200,scheduleId=893</code>的为常驻池<br><code>gachaType=301,scheduleId=903</code>的为角色UP池<br><code>gachaType=302,scheduleId=903</code>的为武器UP池<br><code>gachaType=400,scheduleId=913</code>的为角色UP池2<br><em>多卡池：增加 <code>gachaType</code> 为非以上四个值的成员即可，注意客户端只识别以上四个 `gachaType 值，添加的其他卡池不会显示类型</em><br><code>rateUpItems1</code>为UP五星，<code>rateUpItems2</code>为UP四星，对应<strong>物品ID</strong>在<code>Handbook_CHS.txt</code>中可以找到<br><em>可选</em> 修改卡池封面需修改<code>prefabPath</code> <code>previewPrefabPath</code> <code>titlePath</code>中的 <code>A0**</code> 为对应的卡池 id（在<code>卡池顺序.xlsx</code>中）<br><code>costItem</code>为抽卡耗费的货币名称 <strong>223</strong>纠缠之缘，<strong>224</strong>相遇之缘 <em>202摩拉（整活）</em><br><code>beginTime</code> <code>endTime</code>为卡池开始 / 结束的时间戳<br><code>softPity</code>最少几次出<code>hardPity</code>最多几次出<code>eventChance</code>歪的概率 %<br><em>如果没有的话可以自己加上</em></p>
 <h1 id="游戏资源更新及热门疑问"><a href="#游戏资源更新及热门疑问" class="headerlink" title="游戏资源更新及热门疑问"></a>游戏资源更新及热门疑问</h1><p><em>仅供参考，不一定能解决。</em><br><strong>Q：登录后游戏资源更新不动</strong><br>A：推荐使用 <a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener">羽翼城：UsbEAm Hosts Editor 多平台hosts修改 V3.62</a> 解决<br>使用教程：点击左下角手柄 &gt; 游戏内相关 &gt; 原神国服外服加快下载及更新速度 &gt; 检测延时 &gt; 双击hosts节点测速 &gt; 选择合适的节点<strong>应用选中</strong></p>
 <p><strong>Q：启动服务器后控制台乱码</strong><br>A：本问题<strong>汉化端<code>限定</code></strong><br>右键编辑<strong>run.bat</strong>按如下代码框修改文中代码</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@echo</span> off</span><br><span class="line">chcp <span class="number">936</span> <span class="comment">//插入本条指令，双斜杠和后面的这一段话别复制！</span></span><br><span class="line">set JAVA_EXE=<span class="string">"C:\Program Files\BellSoft\LibericaJDK-17\bin\java.exe"</span></span><br><span class="line">%JAVA_EXE% -jar grasscutter.jar</span><br></pre></td></tr></table></figure>
