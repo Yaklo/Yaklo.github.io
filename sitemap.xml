@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yaklo.skyesc.com/yaklo/project/mcserver/test/index.html</loc>
+    
+    <lastmod>2022-06-25T19:12:39.062Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/</loc>
     
     <lastmod>2022-06-25T18:21:12.839Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>https://yaklo.skyesc.com/yaklo/project/mcserver/index.html</loc>
     
     <lastmod>2021-02-19T01:48:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yaklo.skyesc.com/yaklo/project/mcserver/index%20copy.html</loc>
-    
-    <lastmod>2021-02-18T05:29:48.000Z</lastmod>
     
   </url>
   
