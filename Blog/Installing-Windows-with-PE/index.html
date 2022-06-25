@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="google-site-verification" content="x_WL2AtZ7XiPZU2pMOtAkYpv64Pqo9lpVq2PIaTkg88">
+
+
+
+  <meta name="msvalidate.01" content="E91DB4FC946E91D0123DDDA221551E11">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="教程相关,萌新向,原创,装机必备,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="虚之亚克洛·Yaklo" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="吼，系统装好了啦，都是你教的~">
+<meta name="keywords" content="教程相关,萌新向,原创,装机必备">
+<meta property="og:type" content="article">
+<meta property="og:title" content="该如何安装Windows系统">
+<meta property="og:url" content="https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/index.html">
+<meta property="og:site_name" content="虚之亚克洛·Yaklo">
+<meta property="og:description" content="吼，系统装好了啦，都是你教的~">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/WePE1-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%BC%95%E5%AF%BC1-2.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%88%86%E5%8C%BA1-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%851-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%88%86%E5%8C%BA1-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%852-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC1-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC1-2.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC2-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC2-2.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/CMWTAT_Digital_Release_2_5_0_0.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/HEU_KMS_Activator_v24.6.3.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE1-1.webp">
+<meta property="og:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE2-1.webp">
+<meta property="og:updated_time" content="2022-06-25T18:21:12.839Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="该如何安装Windows系统">
+<meta name="twitter:description" content="吼，系统装好了啦，都是你教的~">
+<meta name="twitter:image" content="https://yaklo.skyesc.com/img/Installing-Windows-with-PE/WePE1-1.webp">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/">
+
+
+
+
+
+  <title>该如何安装Windows系统 | 虚之亚克洛·Yaklo</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-144921526-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9943bc7fef6826b4f131330edc66ad95";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">虚之亚克洛·Yaklo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">天晴了，雨停了，你又觉得你行了（指西片</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/yaklo/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-csgo">
+          <a href="/tags/CS-GO" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-gamepad"></i> <br>
+            
+            CSGO
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-playlist">
+          <a href="/yaklo/playlist" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-music"></i> <br>
+            
+            歌单
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yaklo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://s2.ax1x.com/2019/09/03/nALhjI.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="虚之亚克洛·Yaklo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">该如何安装Windows系统</h2>
+        
+
+        <div class="post-meta">
+        
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-06-22T18:22:00+08:00">
+                2022-06-22
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2022-06-26T02:21:12+08:00">
+                2022-06-26
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Software/" itemprop="url" rel="index">
+                    <span itemprop="name">软件</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  5.4k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  19
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote class="blockquote-center"><p>吼，系统装好了啦，都是你教的~ </p>
+</blockquote>
+<a id="more"></a>
+<blockquote>
+<p><strong>该如何安装Windows系统</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>文中所有内容均以经过实操验证</strong><br>查缺补漏与错误纠正请与我联系<a href="mailto:Yaklo@skyesc.com" target="_blank" rel="noopener">Yaklo@skyesc.com</a><br>实操系统环境<br>Windows 10 消费者版 21H2 发布时间2022-06-21<br>Windows 11 消费者版 21H2 发布时间2022-06-21<br>Windows 10 企业版 LTSC 2021 发布时间2021-11-17</p>
+</blockquote>
+<blockquote>
+<p>请通过博客左侧的 <strong>文章目录</strong> 跳转到对应条目<br>教程内存在 <strong>大量横屏长图</strong> 均可 <strong>点开查看</strong> ，且文章结构并未针对手机做优化<br>所以推荐使用 <strong>电脑</strong>、<strong>平板</strong> 之类设备浏览<br><em>手机浏览请 <strong>横屏</strong> 浏览，不然可能看不清附图</em></p>
+</blockquote>
+<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>制作PE：请至少准备一个8GB的U盘（是USB3.0接口更好）<br>制作PE：准备一台能联网的电脑（有USB3.0接口更好）<br>系统安装：老爷机除外的电脑<br>系统安装：如果可以，带USB3.0（蓝口）的主板<br><em>没有也没关系啦，就是安装的过程长了些~</em></p>
+<p>推荐使用32GB或以上U盘，方便日常使用以及存放更多的Win或其他系统的镜像~<br>教程以 <strong>Windows10</strong> 及 <strong>Windows11</strong> 为基准，<strong>Windows7</strong> 官方镜像没有中文加上系统老旧故不做教程，请自行研究~</p>
+<blockquote>
+<p><strong>如果某段教程带有序号，那一定在下方有对应配图！！！</strong><br><strong>如果某段教程带有序号，那一定在下方有对应配图！！！</strong><br><strong>如果某段教程带有序号，那一定在下方有对应配图！！！</strong><br><strong>重要的事情一定要留意啊！</strong></p>
+</blockquote>
+<h2 id="关于USB接口"><a href="#关于USB接口" class="headerlink" title="关于USB接口"></a>关于USB接口</h2><h3 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h3><p>USB-IF组织傻逼的命名操作导致在购买U盘时可能会被忽悠，所以请注意<br><strong>USB3.0</strong> 又名 <strong>USB3.1 Gen1</strong> 又名 <strong>USB3.2 Gen1</strong> 理论速率5Gbps(625MB/s)<br><strong>USB3.1</strong> 又名 <strong>USB3.1 Gen2</strong> 又名 <strong>USB3.2 Gen2</strong> 理论速率10Gbps(1250MB/s)<br><strong>USB3.2</strong> 又名 <strong>USB3.2 Gen2x2</strong> 又名 <strong>USB4 20</strong> 理论速率20Gbps(2500MB/s)<br><em>并没有USB3.1 3.2这样不带Gen的命名，但我希望在民间大家都能这么称呼，这样方便，但购物的时候不要忘了Gen，USB-IF组织真不愧是You SB-IF组织乱改接口名</em></p>
+<h3 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h3><p>黑色 普通的USB2.0<br>蓝色 USB3.0<br>橙色 USB3.1及以上<br><em>没有测试，仅猜测：小米的快充线是橙色仅染色，没有USB3.1的加成效果，同时其他品牌的数据线或许也一样</em></p>
+<h2 id="U盘安装微PE"><a href="#U盘安装微PE" class="headerlink" title="U盘安装微PE"></a>U盘安装微PE</h2><p>前往微PE官网 &gt; <a href="https://www.wepe.com.cn/" target="_blank" rel="noopener">微PE工具箱</a><br>点击右上角 下载 &gt; 下载最新微PE工具箱 &gt; 查看下载地址列表<br>会显示一个赞助页面，点已捐赠未捐赠都可以显示下载链接，非强制<br>推荐下载64位 <em>不会还有人电脑是32位吧</em><br><em>教程编撰时为V2.2，如果有更新可下载最新，软件基本都长一样不用担心</em><br><em>在允许的情况下可以支持下用爱发电的软件作者们</em></p>
+<p>打开下载好的WePE安装程序，文件名大概长这样<code>WePE64_V2.2.exe</code><br><strong>①</strong>点击右下角 <strong>其他安装方式</strong> 的 <strong>U盘图标</strong><br><strong>②</strong>选择 <strong>待写入U盘</strong> ,按 <strong>盘符</strong> 选择，不知道盘符的话打开 <strong>文件资源管理器</strong> 查看<em>就是 此电脑、我的电脑 啦</em><br><strong>③</strong>请注意格式化默认格式应为 <code>exFAT</code> 如果不是请修改！<br>卷标就是U盘的名字，后期也可以手动修改<br>PE壁纸如果你想加的话点击右边三个点选择你的图片即可<br>[可选]包含DOS工具箱<br>然后点击 <strong>立即安装进U盘</strong> 泡个泡面或者趁现在去下个Windows镜像~<br><img src="/img/Installing-Windows-with-PE/WePE1-1.webp" alt="WePE1-1"></p>
+<h2 id="下载Windows镜像"><a href="#下载Windows镜像" class="headerlink" title="下载Windows镜像"></a>下载Windows镜像</h2><p>前往<a href="https://next.itellyou.cn/" target="_blank" rel="noopener">我告诉你 I Tell You</a> <strong><em>下方有本篇教程实操用的版本链接</em></strong><br>需要注册登录，嫌麻烦就直接第三方登录或者前往旧站<br><em>旧版我告诉你系统资源非常旧，不推荐！！！</em><br><em>旧版我告诉你 &gt; <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">msdn.itellyou.cn</a></em></p>
+<p>选择你要下的系统，下载 <strong>consumer editions</strong> 版本 <em>消费者版本</em><br>Windows 10 (consumer editions) <strong><a href="magnet:?xt=urn:btih:740bc41e5f9d30fe054c50393a2a216c79659539&dn=zh-cn_windows_10_consumer_editions_version_21h2_updated_june_2022_x64_dvd_469593c1.iso&xl=6004480000" target="_blank" rel="noopener">BT</a></strong> <em>21H2 2022-06-21 右键复制链接</em><br>Windows 11 (consumer editions) <strong><a href="magnet:?xt=urn:btih:3c464c3d91cea96759602f69c9b300b03dec2d8b&dn=zh-cn_windows_11_consumer_editions_updated_june_2022_x64_dvd_feb134e8.iso&xl=5846282240" target="_blank" rel="noopener">BT</a></strong> <em>21H2 2022-06-21 右键复制链接</em><br>或<br>Windows 10 Enterprise LTSC <strong><a href="magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712" target="_blank" rel="noopener">BT</a></strong> <em>2021 2021-11-17 右键复制链接</em><br>这是一个微软专为企业制作的精简版，系统组件相比正常版本精简掉了非常多，甚至连基础的图片查看器都没有，如果不是特殊需要请下载 <strong>消费者版</strong></p>
+<p>点击复制 <strong>BT</strong> 的下载链接复制到具有BT下载功能的软件内下载<br>请注意，如果你家的网络比较好包括但不限于 <strong>光猫桥接+IPv4公网IP</strong> <strong>光猫桥接+IPv6公网IP</strong><br>选择使用BT下载软件下载，比如 <a href="https://www.bitcomet.com/cn" target="_blank" rel="noopener">比特彗星</a><br>否则请选择 <a href="https://www.xunlei.com/" target="_blank" rel="noopener">迅雷</a> 下载</p>
+<p><em>具有公网IP（v4 or v6）或者网络环境较为开放的运营商比如联通电信且比特彗星软件内右下角的链接指示灯为绿色可以直接使用BT下载，热门的资源都会获得不俗的网速</em><br><em>除以上两家运营商以外基本都是大内网例如耳熟能详的移动大内网，就不要尝试BT下载啦，会获得感人的网速</em><br><em>迅雷作为BT下载的保底手段是因为他没有网络环境要求，热门资源限速不会太严重</em><br><em>为什么迅雷是BT下载的保底手段？因为迅雷有另外一个名称“吸血雷”，他会从BT网络下载资源下载到自己的服务器后会反手举报原种子（下载链接）导致原资源死种（就是下载不了了）无法下载，且迅雷只下不传</em><br><em>BT下载具体原理请Baidu.com或查看视频<a href="https://yaklo.lanzouq.com/iYwKh06tkmmf" target="_blank" rel="noopener">回形针PaperClip：Vol 075 别再问我什么叫 BT 种子</a>了解</em></p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="引导"><a href="#引导" class="headerlink" title="引导"></a>引导</h2><p>推荐启动后通过 <strong>引导菜单</strong> 引导进入 <strong>PE系统</strong><br><em>BIOS更改简易程度因主板而异，所以推荐使用引导菜单</em></p>
+<blockquote>
+<p>以下是各主板进 <strong>引导菜单</strong> 的快捷键</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">主板</th>
+<th align="center">快捷键</th>
+<th align="center">笔记本</th>
+<th align="center">快捷键</th>
+<th align="center">品牌整机</th>
+<th align="center">快捷键</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">华硕主板</td>
+<td align="center">F8</td>
+<td align="center">联想笔记本</td>
+<td align="center">F12</td>
+<td align="center">联想台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">技嘉主板</td>
+<td align="center">F12</td>
+<td align="center">宏基笔记本</td>
+<td align="center">F12</td>
+<td align="center">惠普台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">微星主板</td>
+<td align="center">F11</td>
+<td align="center">华硕笔记本</td>
+<td align="center">ESC</td>
+<td align="center">宏基台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">映泰主板</td>
+<td align="center">F9</td>
+<td align="center">惠普笔记本</td>
+<td align="center">F9</td>
+<td align="center">戴尔台式机</td>
+<td align="center">ESC</td>
+</tr>
+<tr>
+<td align="center">梅捷主板</td>
+<td align="center">ESC或F12</td>
+<td align="center">联想Thinkpad</td>
+<td align="center">F12</td>
+<td align="center">神舟台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">七彩虹主板</td>
+<td align="center">ESC或F11</td>
+<td align="center">藏尔笔记本</td>
+<td align="center">F12</td>
+<td align="center">华硕台式机</td>
+<td align="center">F8</td>
+</tr>
+<tr>
+<td align="center">华擎主板</td>
+<td align="center">F11</td>
+<td align="center">神舟笔记本</td>
+<td align="center">F12</td>
+<td align="center">方正台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">斯巴达克主板</td>
+<td align="center">ESC</td>
+<td align="center">东芝笔记本</td>
+<td align="center">F12</td>
+<td align="center">清华同方台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">昂达主板</td>
+<td align="center">F11</td>
+<td align="center">三星笔记本</td>
+<td align="center">F12</td>
+<td align="center">海尔台式机</td>
+<td align="center">F12</td>
+</tr>
+<tr>
+<td align="center">双敏主板</td>
+<td align="center">ESC</td>
+<td align="center">IBW笔记本</td>
+<td align="center">F12</td>
+<td align="center">明基台式机</td>
+<td align="center">F8</td>
+</tr>
+<tr>
+<td align="center">翔升主板</td>
+<td align="center">F10</td>
+<td align="center">富士通笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">精英主板</td>
+<td align="center">ESC或F11</td>
+<td align="center">海尔笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">冠盟主板</td>
+<td align="center">F11或F12</td>
+<td align="center">方正笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">富士康主板</td>
+<td align="center">ESC或F12</td>
+<td align="center">清华同方笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">项星主板</td>
+<td align="center">F11或F12</td>
+<td align="center">微星笔记本</td>
+<td align="center">F11</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">铭瑄主板</td>
+<td align="center">ESC</td>
+<td align="center">明基笔记本</td>
+<td align="center">F9</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">盈通主板</td>
+<td align="center">F8</td>
+<td align="center">技嘉笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">捷波主板</td>
+<td align="center">ESC</td>
+<td align="center">Gateway笔记本</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Intel主板</td>
+<td align="center">F12</td>
+<td align="center">eMachines笔记</td>
+<td align="center">F12</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><strong>①</strong>同时你可以也可以在开机第一屏看到主板厂商也有明显标记对应的快捷键，该页面通常显示时间非常短，你可以使用手机相机拍下来<br><strong>②</strong>进入 <strong>启动菜单</strong> 后界面选择你的 <strong>U盘</strong> ，如果能以 <strong>UEFI</strong> 启动则以UEFI启动，这样进系统更快~<br><strong>③</strong>两种引导方式进PE的第一屏，<strong>默认即可</strong><br><em>由于没有设备所以用的主板都是相对较老且不怎么流行的</em><br><em>下图已将关键部分放大处理并已制作明显标记</em><br><img src="/img/Installing-Windows-with-PE/%E5%BC%95%E5%AF%BC1-2.webp" alt="引导1-2"></p>
+<h2 id="单系统"><a href="#单系统" class="headerlink" title="单系统"></a>单系统</h2><h3 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h3><p><strong>①</strong>打开 <strong>分区工具DiskGenius</strong> <em>（傲梅）分区助手功能一样，但界面有些许不同，教程以分区工具DiskGenius界面制作</em><br><strong>②</strong>点击 <strong>快速分区</strong><br><strong>③</strong>在 <strong>当前硬盘</strong> 处选择完硬盘后开始设置分区参数</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>分区表类型</strong></td>
+<td align="center"><code>GUID(GPT)</code></td>
+<td align="center"><code>MBR</code></td>
+</tr>
+<tr>
+<td align="center"><strong>分区数目</strong></td>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center"><strong>重建主引导记录（MBR）</strong></td>
+<td align="center"></td>
+<td align="center">√</td>
+</tr>
+<tr>
+<td align="center"><strong>保留现有ESP分区</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>创建新ESP分区</strong></td>
+<td align="center">300MB</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>创建MSR分区</strong></td>
+<td align="center">√</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><em>如果需要装双系统推荐至少分三个盘，前往 <a href="#分区-1">双系统·分区</a> 查看具体参数</em><br><strong>对齐分区到此扇区数的整数倍 &gt;</strong> <code>√</code> &gt; <code>4096扇区</code> <em>优化硬盘性能及寿命，此操作也称为4K对齐4KB对齐</em></p>
+<p>建议装有系统的硬盘仅分2个区，一个用于系统一个用于存放文件及安装软件<br>分区分配容量大小建议值见下表</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>硬盘大小</td>
+<td><code>120GB</code></td>
+<td><code>256GB</code></td>
+<td><code>512GB</code></td>
+<td><code>1TB</code></td>
+</tr>
+<tr>
+<td><strong>系统分区</strong></td>
+<td>50GB</td>
+<td>80GB</td>
+<td>120GB</td>
+<td>200GB</td>
+</tr>
+<tr>
+<td>其他分区</td>
+<td>≈60GB</td>
+<td>≈176GB</td>
+<td>≈392GB</td>
+<td>≈824GB</td>
+</tr>
+</tbody></table>
+<p><em>其他分区为理论数值，由于硬盘产与电脑计算容量的方式不同，实际分区大小小于表格</em><br><em>例如我的电脑的1TB固态实际可用容量为954GB，我的存储服务器4TB机械实际可用3.63TB。我觉得吧，挺恶心的</em><br><em>请注意，上表的数值是几乎完全留给系统以及垃圾文件的，所以请尽量不要往C盘安装软件！</em><br><em>如果需要往C盘安装软件请自行扩大容量！或者完全不分区，一个区走天下</em><br><strong>④</strong>开始分区<br><img src="/img/Installing-Windows-with-PE/%E5%88%86%E5%8C%BA1-1.webp" alt="分区1-1"></p>
+<h3 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h3><p>从桌面上打开 <strong>Windows 安装器</strong><br>注意顶上的系统选择是不是 <strong>Windows Vista/7/8/10/11/2008/20XX</strong> <em>（默认值）</em><br><strong>①选择 Windows 安装文件的位置 &gt;</strong> 点击搜索选择ISO镜像文件<br>选择完毕后会在下面 <strong>选项</strong> 处出现 <strong>系统选择</strong> ，随便选反正有激活工具 <em>图中被挡住了，已打箭头标识</em><br><strong>选择引导驱动器的位置 &gt;</strong> 可以直接点 <strong>小箭头</strong> 选择，<br><strong>GPT分区 &gt;</strong> 选择 <strong>绿的分区</strong> <em>EFI System(ESP)</em> ，<strong>不要选U盘作死！</strong><br><strong>MBR分区 &gt;</strong> 选择分好的C盘即可<br><em>顺便在右侧会显示分区兼容状态，如果没有全绿那可能是分区出了问题，尝试重新分下区</em><br><strong>②选择安装驱动器的位置 &gt;</strong> 可以直接点 <strong>小箭头</strong> 选择，点击你需要安装系统的分区，例如刚刚分好50GB的C盘<br><strong>③</strong>选择 <strong>模式</strong>，推荐 <code>Wimboot:WIMCOPY</code> 速度快，杂牌固态安装Win11耗时2分多，Compact模式相对较慢<br>总之亮绿灯的你都可以选<br><em>Compact模式在另一台装有更垃圾的固态的电脑上跑出了10分钟的好成绩，同时它的Wimboot:WIMCOPY成绩是5分钟</em><br><strong>④直接确定</strong><br><strong>⑤</strong>这里的重启有的时候未必会成功，如果没有自动重启请手动重启！<br><img src="/img/Installing-Windows-with-PE/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%851-1.webp" alt="系统安装1-1"></p>
+<blockquote>
+<p>如果没有双系统需求或需要接着步骤下一步请跳到 <strong><a href="#开始向导">开始向导</a></strong></p>
+</blockquote>
+<h2 id="双系统"><a href="#双系统" class="headerlink" title="双系统"></a>双系统</h2><blockquote>
+<p><strong>没有特殊需求请勿安装双系统，因为用不到，以及软件安装之类的问题</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>虽然我推荐分三个区，但我其实更推荐分四个，对于电脑小白来讲方便安装软件，一个系统对于一个硬盘，如果你知道软件分文件夹安装的话那就忽略本条提示</strong></p>
+</blockquote>
+<h3 id="分区-1"><a href="#分区-1" class="headerlink" title="分区"></a>分区</h3><blockquote>
+<p>如果是后期计划双系统的话相对困难，主要是分区问题<br>硬盘在使用过程中的文件并不是连续排列的，会有很多碎片文件<br>分区时系统会自动转移但需要一些时间。</p>
+</blockquote>
+<p><strong>①</strong>打开 <strong>分区工具DiskGenius</strong> <em>（傲梅）分区助手功能一样，但界面有些许不同，教程以分区工具DiskGenius界面制作</em><br><strong>②</strong>点击 <strong>快速分区</strong><br><strong>③</strong>在 <strong>当前硬盘</strong> 处选择完硬盘后开始设置分区参数</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>分区表类型</strong></td>
+<td align="center"><code>GUID(GPT)</code></td>
+<td align="center"><code>MBR</code></td>
+</tr>
+<tr>
+<td align="center"><strong>分区数目</strong></td>
+<td align="center">3</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center"><strong>重建主引导记录（MBR）</strong></td>
+<td align="center"></td>
+<td align="center">√</td>
+</tr>
+<tr>
+<td align="center"><strong>保留现有ESP分区</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>创建新ESP分区</strong></td>
+<td align="center">300MB</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>创建MSR分区</strong></td>
+<td align="center">√</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><strong>对齐分区到此扇区数的整数倍 &gt;</strong> <code>√</code> &gt; <code>4096扇区</code> <em>优化硬盘性能及寿命，此操作也称为4K对齐4KB对齐</em></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>硬盘大小</td>
+<td><code>120GB</code></td>
+<td><code>256GB</code></td>
+<td><code>512GB</code></td>
+<td><code>1TB</code></td>
+</tr>
+<tr>
+<td><strong>系统分区</strong></td>
+<td>不推荐</td>
+<td>60GB x2</td>
+<td>80GB x2</td>
+<td>160GB x2</td>
+</tr>
+<tr>
+<td>其他分区</td>
+<td>不推荐</td>
+<td>≈136GB</td>
+<td>≈352GB</td>
+<td>≈704GB</td>
+</tr>
+</tbody></table>
+<p><strong><em>x2代表两个硬盘</em></strong><br><em>其他分区为理论数值，由于硬盘产与电脑计算容量的方式不同，实际分区大小小于表格</em><br><em>例如我的电脑的1TB固态实际可用容量为954GB，我的存储服务器4TB机械实际可用3.63TB。我觉得吧，挺恶心的</em><br><em>请注意，上表的数值是几乎完全留给系统以及垃圾文件的，所以请尽量不要往C盘安装软件！</em><br><em>如果需要往C盘安装软件请自行扩大容量！或者完全不分区，一个区走天下</em><br><strong>④</strong>开始分区<br><img src="/img/Installing-Windows-with-PE/%E5%88%86%E5%8C%BA1-1.webp" alt="分区1-1"></p>
+<h3 id="系统安装-1"><a href="#系统安装-1" class="headerlink" title="系统安装"></a>系统安装</h3><p>从桌面上打开 <strong>Windows 安装器</strong><br>注意顶上的系统选择是不是 <strong>Windows Vista/7/8/10/11/2008/20XX</strong> <em>（默认值）</em><br><strong>①选择 Windows 安装文件的位置 &gt;</strong> 点击搜索选择ISO镜像文件<br>选择完毕后会在下面 <strong>选项</strong> 处出现 <strong>系统选择</strong> ，随便选反正有激活工具 <em>图中被挡住了，已打箭头标识</em><br><strong>选择引导驱动器的位置 &gt;</strong> 可以直接点 <strong>小箭头</strong> 选择，<br><strong>GPT分区 &gt;</strong> 选择 <strong>绿的分区</strong> <em>EFI System(ESP)</em> ，<strong>不要选U盘作死！</strong><br><strong>MBR分区 &gt;</strong> 选择分好的C盘即可<br><em>顺便在右侧会显示分区兼容状态，如果没有全绿那可能是分区出了问题，尝试重新分下区</em><br><strong>②选择安装驱动器的位置 &gt;</strong> 可以直接点 <strong>小箭头</strong> 选择，点击你需要 <strong>安装系统</strong> 的分区<br>选择 <strong>另一个</strong> 分好区的盘，不要和 <strong>原系统</strong> 选 <strong>一个盘！</strong><br><strong>③</strong>选择 <strong>模式</strong>，推荐 <code>Wimboot:WIMCOPY</code> 速度快，杂牌固态安装Win11耗时2分多，Compact模式相对较慢<br>总之亮绿灯的你都可以选<br><em>Compact模式在另一台装有更垃圾的固态的电脑上跑出了10分钟的好成绩，同时它的Wimboot:WIMCOPY成绩是5分钟</em><br><strong>④启动菜单：查找并添加已安装在此计算机的 Windows 版本 &gt; 勾上</strong> 然后确定<br><strong>⑤</strong>这里的重启有的时候未必会成功，如果没有自动重启请手动重启！<br><img src="/img/Installing-Windows-with-PE/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%852-1.webp" alt="系统安装2-1"> </p>
+<h2 id="开始向导"><a href="#开始向导" class="headerlink" title="开始向导"></a>开始向导</h2><p>推荐在断网的情况下进行开始向导，否则部分内容会加载的比较久<br>联网的步骤也大抵一样，如果不想登录微软账号注意底部是否有类似于 <strong>继续执行受限设置</strong> 的按钮<br>如果你重启完直接进了PE系统请返回到 <strong><a href="#引导">引导</a></strong> 部分手动选择启动项为 <code>Windows Boot Manager</code> 如果没有则选择 <strong>你的硬盘</strong> ，或者 <strong>关机</strong> 拔出U盘后 <strong>再开机</strong></p>
+<h3 id="Windows-11"><a href="#Windows-11" class="headerlink" title="Windows 11"></a>Windows 11</h3><p>因电脑而异界面不同，有 <strong>准备就绪</strong> 或在加载的小点点在转即可。小等一会~<br>随后Win11念诗环节，继续小等一会~<br><em>冷知识：Win11只会这一句诗，Win10会好几句，由此可得Win11文化水平不如Win10</em><br><strong>①这是正确的国家（地区）吗？ &gt;</strong> <code>中国</code><br><strong>②此键盘布局或输入法是否合适？ &gt;</strong> <code>微软拼音</code><br><strong>③是否想要添加第二种键盘布局？ &gt;</strong> 可以跳过，不过我推荐你可以 <strong>添加</strong> 一个 <strong>英文输入法</strong><br>打游戏、设计之类的可以切换成英文输入法防止点到或使用Shift键的时候卡中文输入法<br><em>小知识 &gt; 使用 <strong>快捷键</strong> <code>Win</code>+<code>空格</code> 可以快速在你添加的多个输入法之间 <strong>切换</strong> .</em><br><strong>④让我们为你连接到网络 &gt;</strong> <code>我没有 Internet 连接</code><br><strong>⑤立即连接以快速开始使用你的设备 &gt;</strong> <code>继续执行受限设置</code><br><strong>⑥请查看许可协议 &gt;</strong> <code>继续</code><br><img src="/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC1-1.webp" alt="开始向导1-1"></p>
+<p><strong>①谁在使用此设备 &gt; 推荐使用英文</strong> &gt; <code>下一页</code><br><strong>②创建容易记住的密码 &gt; 不输入则无密码</strong> &gt; <code>下一页</code><br><strong>③为你的设备选择隐私设置 &gt; 全部关闭</strong> &gt; <code>下一页</code><br>等待一会进入桌面…<br><img src="/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC1-2.webp" alt="开始向导1-2"></p>
+<h3 id="Windows-10"><a href="#Windows-10" class="headerlink" title="Windows 10"></a>Windows 10</h3><p>因电脑而异界面不同，有 <strong>准备就绪</strong> 或在加载的小点点在转即可。小等一会~<br>Win10念诗环节，继续小等一会~<br><strong>①让我们先从区域设置开始。这样对吧？ &gt;</strong> <code>中国</code><br><strong>②这种键盘布局是否合适？ &gt;</strong> <code>微软拼音</code><br><strong>③是否想要添加第二种键盘布局？ &gt;</strong> 可以跳过，不过我推荐你可以 <strong>添加</strong> 一个 <strong>英文输入法</strong><br>打游戏、设计之类的可以切换成英文输入法防止点到或使用Shift键的时候卡中文输入法<br><em>小知识 &gt; 使用 <strong>快捷键</strong> <code>Win</code>+<code>空格</code> 可以快速在你添加的多个输入法之间 <strong>切换</strong> .</em><br><strong>④让我们为你连接到网络 &gt;</strong> <code>我没有 Internet 连接</code> <em>左下角小字</em><br><strong>⑤连接到 Internet 后，还有更多内容等你发现 &gt;</strong> <code>继续执行受限设置</code> <em>左下角小字</em><br><strong>⑥Windows 10 许可协议 &gt;</strong> <code>继续</code><br><img src="/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC2-1.webp" alt="开始向导2-1"></p>
+<p><strong>①谁在使用这台电脑？ &gt; 推荐使用英文</strong> &gt; <code>下一页</code><br><strong>②创建容易记住的密码 &gt; 不输入则无密码</strong> &gt; <code>下一页</code><br><strong>③为你的设备选择隐私设置 &gt; 全部关闭</strong> &gt; <code>下一页</code><br><strong>④让 Cortana 帮助你完成操作 &gt;</strong> <code>以后再说</code> <em>Cortana小娜已经半残废了</em><br>等待一会进入桌面…<br><img src="/img/Installing-Windows-with-PE/%E5%BC%80%E5%A7%8B%E5%90%91%E5%AF%BC2-2.webp" alt="开始向导2-2"></p>
+<h1 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h1><h2 id="激活系统"><a href="#激活系统" class="headerlink" title="激活系统"></a>激活系统</h2><h3 id="联网"><a href="#联网" class="headerlink" title="联网"></a>联网</h3><p>下载 <strong><a href="https://cmwtat.cloudmoe.com/cn.html" target="_blank" rel="noopener">云萌 Windows 10 激活工具</a></strong><br><em><a href="https://yaklo.lanzouq.com/iaeBt06xzmli" target="_blank" rel="noopener">蓝奏云备用下载通道v2.5.0.0</a></em></p>
+<p><em>注意: 目前已知 <strong>Windows 10</strong> 的 <strong>专业版（Professional）</strong>、<strong>专业工作站版（ProfessionalWorkstation）</strong>、<strong>教育版（Education）</strong>、<strong>专业教育版（ProfessionalEducation）</strong>、<strong>企业版（Enterprise）</strong> 之间可以进行互相转换（N版本与LTSB版本除外），而这些版本与<strong>家庭版（Core）</strong>均不能一键转换，如需转换请使用 <strong>Windows设置</strong> 中的 <strong>更改产品密钥</strong> 功能进行升级。</em></p>
+<p><strong>软件展示</strong><br><img src="/img/Installing-Windows-with-PE/CMWTAT_Digital_Release_2_5_0_0.webp" alt="CMWTAT_Digital_Release_2_5_0_0"></p>
+<h3 id="断网"><a href="#断网" class="headerlink" title="断网"></a>断网</h3><blockquote>
+<p><strong>方案一</strong><br>下载 <strong>HEU_KMS_Activator</strong><br><a href="https://github.com/zbezj/HEU_KMS_Activator/releases" target="_blank" rel="noopener">Github：HEU_KMS_Activator</a><em>密码HEU168</em><br><a href="https://yaklo.lanzouq.com/ihWBV06y1oof" target="_blank" rel="noopener">蓝奏云备用下载通道v24.6.3</a><em>无密码</em><br><em>其实这个软件功能还挺多的，自己研究研究吧~</em></p>
+</blockquote>
+<p><strong>软件展示</strong><br><img src="/img/Installing-Windows-with-PE/HEU_KMS_Activator_v24.6.3.webp" alt="HEU_KMS_Activator_v24.6.3"></p>
+<blockquote>
+<p><strong>方案二（备用）</strong><br>下载 <a href="https://yaklo.lanzouq.com/iFWys06y14sj" target="_blank" rel="noopener">蓝奏云：KMSpico</a><br>文件来自好几年前在网上冲浪冲来的，放现在就是玄学激活了，说不定系统再更新个几版就用不了了<br>在C盘 <strong>创建一个文件夹</strong> 并将压缩包解压在里面<br>运行 <strong>AutoPico.exe</strong> ，过一小会就好了 <em>有接耳机音响之类的应该能听到类似于核弹发射确认的声音</em><br>或者运行 <strong>KMSELDI.exe</strong> 点中间的核弹发射按钮 <em>有接耳机音响之类的应该能听到类似于核弹发射确认的声音</em></p>
+</blockquote>
+<h2 id="桌面图标"><a href="#桌面图标" class="headerlink" title="桌面图标"></a>桌面图标</h2><h3 id="Windows-11-1"><a href="#Windows-11-1" class="headerlink" title="Windows 11"></a>Windows 11</h3><p><strong>①右键桌面点 &gt; 个性化 &gt; 主题</strong><br><strong>②主题 &gt; 桌面图标设置</strong> 往上滑在底下<br><strong>③桌面图标设置 &gt; 选择你需要的桌面图标</strong>，一般计算机与回收站两项就行<br><em>.<strong>确定</strong> 与 <strong>应用</strong> 的区别，一个关闭窗口一个不关闭</em><br><img src="/img/Installing-Windows-with-PE/%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE1-1.webp" alt="桌面图标设置1-1"></p>
+<h3 id="Windows-10-1"><a href="#Windows-10-1" class="headerlink" title="Windows 10"></a>Windows 10</h3><p><strong>①右键桌面点 &gt; 个性化</strong><br><strong>瘦窗口</strong> 往下划找到 <strong>桌面图标设置</strong> 点进去<br><em>指窗口长度较窄的窗口</em><br><strong>胖窗口</strong> 在右侧找到 <strong>桌面图标设置</strong> 点进去<br><em>指窗口长度较宽的窗口</em><br><strong>②桌面图标设置 &gt; 选择你需要的桌面图标</strong>，一般计算机与回收站两项就行<br><em>.<strong>确定</strong> 与 <strong>应用</strong> 的区别，一个关闭窗口一个不关闭</em><br><img src="/img/Installing-Windows-with-PE/%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E8%AE%BE%E7%BD%AE2-1.webp" alt="桌面图标设置2-1"></p>
+<h1 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h1><blockquote>
+<p>你确定要继续吗，此处非必要设置<br>如果你执意修改，请选择你需要的功能，不用每一项都改<br>非必要内容可能不会配图，但同样的会有非常详细的文字说明<br><em>随缘更新</em></p>
+</blockquote>
+<h2 id="关闭系统更新"><a href="#关闭系统更新" class="headerlink" title="关闭系统更新"></a>关闭系统更新</h2><p><em>不一定有用，但是必要设置的一部分</em><br><code>Win</code>+<code>R</code> 在运行窗口输入 <strong>services.msc</strong> 并 <strong>确认</strong> 打开<br><strong>双击</strong> 进入以下服务 <strong>停止</strong> 并将 <strong>启动类型</strong> 改为 <strong>禁用</strong></p>
+<blockquote>
+<p>服务名称：BITS<br><strong>显示名称：Background Intelligent Transfer Service</strong></p>
+</blockquote>
+<blockquote>
+<p>服务名称：wuauserv<br><strong>显示名称：Windows Update</strong></p>
+</blockquote>
+<h2 id="禁用粘滞键"><a href="#禁用粘滞键" class="headerlink" title="禁用粘滞键"></a>禁用粘滞键</h2><p>连点五次 <strong>Shift</strong> 会弹出粘滞键菜单<br>点击 <strong>在“轻松使用”键盘设置中禁用此键盘快捷方式</strong> 进入设置后自行关闭相关设置</p>
+<h2 id="调整虚拟-页面内存"><a href="#调整虚拟-页面内存" class="headerlink" title="调整虚拟/页面内存"></a>调整虚拟/页面内存</h2><p><strong>右键</strong> 桌面或文件管理器里的 <strong>此电脑</strong> 点 <strong>属性</strong><br>找到 <strong>高级系统设置</strong> 并点进去<br>点击 <strong>性能 &gt; 设置</strong> ，顶部 <strong>高级</strong> ，<strong>虚拟内存 &gt; 更改</strong><br><strong>关闭</strong> 自动管理所有驱动器的分页文件大小，选择一个固态硬盘的分区<br><strong>自定义大小 &gt; 初始大小</strong> 为最大值的四分之一差不多，<strong>最大值</strong> 为 <strong>物理内存</strong> 的 <strong>1.5</strong> 至 <strong>2倍</strong><br>随后 <strong>确定</strong> 应用 <em>可能需要重启电脑，会有提示</em></p>
+<p><em>参考文章</em><br><em><a href="https://www.zhihu.com/question/472247989" target="_blank" rel="noopener">知乎：为何usb3.2 gen1 u盘速度只有几mb/s？</a></em><br><em><a href="https://wenku.baidu.com/view/444c2d892b4ac850ad02de80d4d8d15abe2300e2.html" target="_blank" rel="noopener">百度文库：进入启动引导菜单的“快捷键”表</a></em><br><em>引用视频</em><br><em><a href="https://www.youtube.com/watch?v=jp0bF9Qu2Jw" target="_blank" rel="noopener">Youtube：回形针PaperClip：Vol 075 别再问我什么叫 BT 种子</a></em><br><em>参考软件</em><br><em><a href="https://www.wepe.com.cn/" target="_blank" rel="noopener">微PE工具箱</a></em><br><em><a href="https://next.itellyou.cn/" target="_blank" rel="noopener">我告诉你 I Tell You</a></em><br><em><a href="https://www.bitcomet.com/cn" target="_blank" rel="noopener">比特彗星</a></em><br><em><a href="https://www.xunlei.com/" target="_blank" rel="noopener">迅雷</a></em><br><em><a href="https://cmwtat.cloudmoe.com/cn.html" target="_blank" rel="noopener">云萌 Windows 10 激活工具</a></em><br><em><a href="https://github.com/zbezj/HEU_KMS_Activator/releases" target="_blank" rel="noopener">Github：HEU_KMS_Activator</a></em><br><em><a href="https://yaklo.lanzouq.com/iFWys06y14sj" target="_blank" rel="noopener">KMSpico</a> 蓝奏云，官网不详</em></p>
+<p><em>关于引用回形针的视频资源，首先我看过这期视频认为视频做的好、生动所以引用</em></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>为什么不尝试赏点子鼓励我呢~</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="Yaklo 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.png" alt="Yaklo 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Yaklo
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/" title="该如何安装Windows系统">https://yaklo.skyesc.com/Blog/Installing-Windows-with-PE/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY 4.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/teaching/" rel="tag"># 教程相关</a>
+          
+            <a href="/tags/Mengxin/" rel="tag"># 萌新向</a>
+          
+            <a href="/tags/原创/" rel="tag"># 原创</a>
+          
+            <a href="/tags/装机必备/" rel="tag"># 装机必备</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Blog/Genshin2-6-Grasscutters-Multiplayer/" rel="next" title="原神 2.6 私服多人联机教程">
+                <i class="fa fa-chevron-left"></i> 原神 2.6 私服多人联机教程
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://s2.ax1x.com/2019/09/03/nALhjI.png" alt="Yaklo">
+            
+              <p class="site-author-name" itemprop="name">Yaklo</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://space.bilibili.com/178209154" target="_blank" title="Bilibili">
+                      
+                        <i class="fa fa-fw fa-tv"></i>Bilibili</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="/yaklo/link/Discord" target="_blank" title="Discord">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Discord</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Yaklo" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:hi@skyesc.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/Skyblue_Yaklo" target="_blank" title="Twitter">
+                      
+                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://steamcommunity.com/id/ChinaYaklo" target="_blank" title="Steam">
+                      
+                        <i class="fa fa-fw fa-steam"></i>Steam</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.skyesc.com/" title="Yaklostack" target="_blank">Yaklostack</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://otoo.top/" title="OTOO数字短域|密语" target="_blank">OTOO数字短域|密语</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.biliob.com/" title="BiliOB" target="_blank">BiliOB</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://imgchr.com/" title="路过图床" target="_blank">路过图床</a>
+                  </li>
+                
+              </ul>
+              
+<div id="days"></div>
+<script>
+function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("05/22/2019 22:26:00");
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+    document.getElementById('days').innerHTML="已运行 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+}
+function setzero(i) {
+    if (i<10) {
+        i="0" + i
+    };
+    return i;
+}
+show_date_time();
+</script>
+            </div>
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备"><span class="nav-text">准备</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于USB接口"><span class="nav-text">关于USB接口</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#协议"><span class="nav-text">协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#颜色"><span class="nav-text">颜色</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#U盘安装微PE"><span class="nav-text">U盘安装微PE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载Windows镜像"><span class="nav-text">下载Windows镜像</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安装"><span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#引导"><span class="nav-text">引导</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#单系统"><span class="nav-text">单系统</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分区"><span class="nav-text">分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#系统安装"><span class="nav-text">系统安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#双系统"><span class="nav-text">双系统</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分区-1"><span class="nav-text">分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#系统安装-1"><span class="nav-text">系统安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开始向导"><span class="nav-text">开始向导</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-11"><span class="nav-text">Windows 11</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-10"><span class="nav-text">Windows 10</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基础配置"><span class="nav-text">基础配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#激活系统"><span class="nav-text">激活系统</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#联网"><span class="nav-text">联网</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#断网"><span class="nav-text">断网</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#桌面图标"><span class="nav-text">桌面图标</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-11-1"><span class="nav-text">Windows 11</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows-10-1"><span class="nav-text">Windows 10</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#进阶配置"><span class="nav-text">进阶配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#关闭系统更新"><span class="nav-text">关闭系统更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#禁用粘滞键"><span class="nav-text">禁用粘滞键</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调整虚拟-页面内存"><span class="nav-text">调整虚拟/页面内存</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yaklo</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">21.8k</span>
+  
+</div>
+
+<!--  
+
+<div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+-->
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
+</body>
+</html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
