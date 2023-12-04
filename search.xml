@@ -106,7 +106,7 @@
   <entry>
     <title><![CDATA[超强内存清理软件]]></title>
     <url>%2FBlog%2FSuper_strong_Mem_Reduct%2F</url>
-    <content type="text"><![CDATA[内存占用高？不妨试试这个 内容已微汉化 超强内存清理软件 它能做什么？它能清理你电脑的运行内存亲测效果大大好于 Steam付费软件 ClearMem 我买的是CPUCores里的DLC，应该没差 详细介绍 内容更新于 2020年1月18日 AM以下内容使用谷歌网页翻译 Mem Reduct 官网 HENRY++ / Mem Reduct EN 作者 Henry++ 版本 3.3.5 第一个版本 2011年10月27日 最近更新时间 2019年2月10日 许可 GPL v3 编译语言 C / C ++ 支持的操作系统 Windows XP（SP 3），Vista，7、8、8.1、10 平台架构 32位/64位 语言 N国语言 支持中文 描述轻量级的实时内存管理应用程序，用于监视和清理计算机上的系统内存。该程序使用了未记录的内部系统功能（Native API）来清除系统缓存（系统工作集，工作集，备用页面列表，已修改页面列表），结果变化约为10-50％。应用程序它与Windows XP SP3和更高版本的操作系统兼容，但是某些常规功能仅从Windows Vista开始可用。您可以下载安装程序或便携式版本。为了正常工作，需要管理员权限。 便携式模式要激活便携式模式，请创建 memreduct.ini 在应用程序文件夹中，或将其从 %APPDATA%\Henry++\Mem Reduct。 GPG签名二进制文件具有GPG签名 memreduct.sig 在应用程序文件夹中。 公钥Public key pubkey.asc(ha.pool.sks-keyservers.net) 密钥IDKey ID 0x5635B5FD 指纹Fingerprint D985 2361 1524 AB29 BE73 30AC 2881 20A7 5635 B5FD 下载 memreduct-3.3.5-bin.zip memreduct-3.3.5-setup.exe memreduct-3.3.5-setup.exe.sig memreduct-3.3.5.sha256 最新稳定版本一直在这里Latest stable release is always here 链接 GitHub 变更日志 许可协议 支持 报告问题 拉取要求 推荐设置 如有漏缺请联系Yaklo补全 参考文章参考视频参考网站HENRY++ / Mem Reduct]]></content>
+    <content type="text"><![CDATA[内存占用高？不妨试试这个 内容已微汉化 超强内存清理软件 它能做什么？它能清理你电脑的运行内存亲测效果大大好于 Steam付费软件 ClearMem 我买的是CPUCores里的DLC，应该没差 详细介绍 内容更新于 2020年1月18日 AM以下内容使用谷歌网页翻译 Mem Reduct 官网 HENRY++ / Mem Reduct EN 作者 Henry++ 版本 3.3.5 第一个版本 2011年10月27日 最近更新时间 2019年2月10日 许可 GPL v3 编译语言 C / C ++ 支持的操作系统 Windows XP（SP 3），Vista，7、8、8.1、10 平台架构 32位/64位 语言 N国语言 支持中文 描述轻量级的实时内存管理应用程序，用于监视和清理计算机上的系统内存。该程序使用了未记录的内部系统功能（Native API）来清除系统缓存（系统工作集，工作集，备用页面列表，已修改页面列表），结果变化约为10-50％。应用程序它与Windows XP SP3和更高版本的操作系统兼容，但是某些常规功能仅从Windows Vista开始可用。您可以下载安装程序或便携式版本。为了正常工作，需要管理员权限。 便携式模式要激活便携式模式，请创建 memreduct.ini 在应用程序文件夹中，或将其从 %APPDATA%\Henry++\Mem Reduct。 GPG签名二进制文件具有GPG签名 memreduct.sig 在应用程序文件夹中。 公钥Public key pubkey.asc(ha.pool.sks-keyservers.net) 密钥IDKey ID 0x5635B5FD 指纹Fingerprint D985 2361 1524 AB29 BE73 30AC 2881 20A7 5635 B5FD 下载 memreduct-3.3.5-bin.zip memreduct-3.3.5-setup.exe memreduct-3.3.5-setup.exe.sig memreduct-3.3.5.sha256 GitHub ProxyGitHub Proxy是GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务. memreduct-3.4-setup.exe2022年1月25日于Github更新 链接 GitHub 变更日志 许可协议 支持 报告问题 拉取要求 推荐设置 如有漏缺请联系Yaklo补全 参考文章参考视频参考网站HENRY++ / Mem Reduct]]></content>
       <categories>
         <category>软件</category>
       </categories>
@@ -122,9 +122,9 @@
         <category>游戏</category>
       </categories>
       <tags>
-        <tag>Steam</tag>
         <tag>教程相关</tag>
         <tag>萌新向</tag>
+        <tag>Steam</tag>
         <tag>Epic</tag>
         <tag>WeGame</tag>
         <tag>联机</tag>
@@ -201,11 +201,11 @@
         <category>软件</category>
       </categories>
       <tags>
+        <tag>Uplay</tag>
         <tag>教程相关</tag>
         <tag>UsbEAm Hosts Editor</tag>
         <tag>萌新向</tag>
         <tag>5分钟</tag>
-        <tag>Uplay</tag>
       </tags>
   </entry>
   <entry>
