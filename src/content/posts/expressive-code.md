@@ -1,27 +1,27 @@
 ---
-title: Expressive Code Example
+title: 富有表现力的代码示例
 published: 2024-04-10
-description: How code blocks look in Markdown using Expressive Code.
-tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: false
+description: 使用Expressive Code时Markdown中代码块的显示效果。
+tags: [Markdown, 博客, 示例]
+category: 示例
+draft: true
 ---
 
-Here, we'll explore how code blocks look using [Expressive Code](https://expressive-code.com/). The provided examples are based on the official documentation, which you can refer to for further details.
+这里我们将探讨使用[Expressive Code](https://expressive-code.com/)时代码块的显示效果。提供的示例基于官方文档，您可以参考该文档获取更多细节。
 
 ## Expressive Code
 
-### Syntax Highlighting
+### 语法高亮
 
-[Syntax Highlighting](https://expressive-code.com/key-features/syntax-highlighting/)
+[语法高亮](https://expressive-code.com/key-features/syntax-highlighting/)
 
-#### Regular syntax highlighting
+#### 常规语法高亮
 
 ```js
 console.log('This code is syntax highlighted!')
 ```
 
-#### Rendering ANSI escape sequences
+#### 渲染ANSI转义序列
 
 ```ansi
 ANSI colors:

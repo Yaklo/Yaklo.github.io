@@ -12,17 +12,17 @@ export const siteConfig: SiteConfig = {
 	subtitle: "天晴了，雨停了，你又觉得你行了（指西片",
 	lang: "zh_CN", // 语言设置: 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
-		hue: 250, // 主题色默认色调，取值范围0-360。例如红色:0，蓝绿色:200，青色:250，粉色:345
+		hue: 235, // 主题色默认色调，取值范围0-360。例如红色:0，蓝绿色:200，青色:250，粉色:345
 		fixed: false, // 对访客隐藏主题色选择器
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", // 图片路径，相对于/src目录。若以'/'开头则相对于/public目录
-		position: "center", // 等同于object-position属性，仅支持'top','center','bottom'，默认为'center'
+		enable: true,
+		src: "assets/images/banner.png", // 图片路径，相对于/src目录。若以'/'开头则相对于/public目录
+		position: "top", // 等同于object-position属性，仅支持'top','center','bottom'，默认为'center'
 		credit: {
-			enable: false, // 是否显示横幅图片的版权信息
-			text: "", // 显示的版权文字
-			url: "", // (可选) 原作品或艺术家页面的URL链接
+			enable: true, // 是否显示横幅图片的版权信息
+			text: "からかい上手の高木さん", // 显示的版权文字
+			url: "https://takagi3.me/", // (可选) 原作品或艺术家页面的URL链接
 		},
 	},
 	toc: {
@@ -44,35 +44,40 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // 内部链接不应包含基础路径，会自动添加
-			external: true, // 显示外部链接图标，将在新标签页打开
-		},
+		// {
+		// 	name: "GitHub",
+		// 	url: "https://github.com/saicaca/fuwari", // 内部链接不应包含基础路径，会自动添加
+		// 	external: true, // 显示外部链接图标，将在新标签页打开
+		// },
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // 头像路径，相对于/src目录。若以'/'开头则相对于/public目录
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/avatar.png", // 头像路径，相对于/src目录。若以'/'开头则相对于/public目录
+	name: "虚之亚克洛·Yaklo",
+	bio: "天晴了，雨停了，你又觉得你行了（指西片",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // 图标代码请访问 https://icones.js.org/
+			name: "Bilibili",
+			icon: "fa6-brands:bilibili", // 图标代码请访问 https://icones.js.org/
 			// 如果尚未包含相应图标集，您需要先安装
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			url: "https://space.bilibili.com/178209154",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/Yaklo",
+		},
+		{
+			name: "Steam",
+			icon: "fa6-brands:steam",
+			url: "https://steamcommunity.com/id/SkyYaklo",
+		},
+		{
+			name: "X",
+			icon: "fa6-brands:x-twitter",
+			url: "https://x.com/Baacharuyakuro",
 		},
 	],
 };
