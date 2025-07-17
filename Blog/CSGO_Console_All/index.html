@@ -93,14 +93,14 @@
 <meta property="og:site_name" content="虚之亚克洛·Yaklo">
 <meta property="og:description" content="你离大地球只差一个玩转控制台的距离！">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://s2.ax1x.com/2019/05/27/VZLBB4.jpg">
-<meta property="og:image" content="https://s2.ax1x.com/2019/05/27/VZL0uF.jpg">
-<meta property="og:image" content="https://s2.ax1x.com/2019/05/27/VZLDHJ.jpg">
+<meta property="og:image" content="/img/old/VZLBB4.webp">
+<meta property="og:image" content="/img/old/VZL0uF.webp">
+<meta property="og:image" content="/img/old/VZLDHJ.webp">
 <meta property="og:updated_time" content="2019-09-07T11:48:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CS:GO控制台常用指令">
 <meta name="twitter:description" content="你离大地球只差一个玩转控制台的距离！">
-<meta name="twitter:image" content="https://s2.ax1x.com/2019/05/27/VZLBB4.jpg">
+<meta name="twitter:image" content="/img/old/VZLBB4.webp">
 
 
 
@@ -348,7 +348,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yaklo">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="https://s2.ax1x.com/2019/09/03/nALhjI.png">
+      <meta itemprop="image" content="/img/old/nALhjI.webp">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -484,7 +484,7 @@
 </blockquote>
 <p><strong><em>CS:GO控制台指令2019.6.8-NO.3</em></strong></p>
 <p>控制台开启方法：<br>=第一种方式<br>游戏启动项输入 <strong><code>-console</code></strong> 详见<a href="/Blog/CSGO_Startup_project_All">CS:GO启动项大全</a></p>
-<p>=第二种方式<br>点开CSGO游戏设置，在游戏设置里启用控制台选项<br><img src="https://s2.ax1x.com/2019/05/27/VZLBB4.jpg" alt="1-1"><br>开启之后呢，常规的控制台按键是 <code>~</code> 键，也就是 <code>Esc</code> 键下面的键位，进入游戏后按下 <code>~</code> 键即可进入控制台下图样式<br><img src="https://s2.ax1x.com/2019/05/27/VZL0uF.jpg" alt="1-2"><br>在控制台输入指令，只需要输入前几位字母，即可可选择系统自动补全指令。<br><img src="https://s2.ax1x.com/2019/05/27/VZLDHJ.jpg" alt="1-3"></p>
+<p>=第二种方式<br>点开CSGO游戏设置，在游戏设置里启用控制台选项<br><img src="/img/old/VZLBB4.webp" alt="1-1"><br>开启之后呢，常规的控制台按键是 <code>~</code> 键，也就是 <code>Esc</code> 键下面的键位，进入游戏后按下 <code>~</code> 键即可进入控制台下图样式<br><img src="/img/old/VZL0uF.webp" alt="1-2"><br>在控制台输入指令，只需要输入前几位字母，即可可选择系统自动补全指令。<br><img src="/img/old/VZLDHJ.webp" alt="1-3"></p>
 <h1 id="基础指令"><a href="#基础指令" class="headerlink" title="基础指令"></a><strong>基础指令</strong></h1><p><strong><code>cl_showfps 0/1</code></strong> 关闭/显示当前fps值<br><strong><code>net_graph 0/1</code></strong> <strong>#推荐开启#</strong> 关闭/显示当前fps、ping值、loss、choke、tick<br>    –fps越高游戏越流畅，只与机器配置有关，与网络/服务器无关<br>    –ping越低游戏延迟越低，只与自身网络以及服务器有关<br>    –loss指游戏数据输入，值越高越接受不到外界的信息，敌人脚步声、枪声等，有时甚至无法看见烟雾弹<br>    –choke指游戏数据输出，值越高你的步伐越有可能走2步退1步，好像后面有人拉着你，严重的切枪也切不出来，丢手雷丢不出去，开枪有枪声但子弹却没减少<br>    –tick分为64和128,128的弹道要好一点，tick值由当前服务器决定<br>使用VPN选个好节点，能有效缓解匹配/ESEAping、loss、choke太高的问题）<br><strong><code>cl_showpos 1</code></strong> 显示游戏信息<br>    –name你在当前服务器的名字<br>    –pos当前坐标<br>    –ang屏幕准星坐标<br>    –vel当前移速 <em>官方匹配会限制速度300，如果超速则会强制降速</em><br>    –stamina坠落指数 <em>从高处调下时低于0则扣血</em><br><strong><code>fps_max 100</code></strong> 限制最高fps刷新率为每秒100帧<em>建议设置的帧率比目标帧率搞5-7帧，这样才能更好的稳定在FPS60、FPS144等。另外此指令能有效降低电脑负担，但配置好的机器推荐设置为300或者更高。如果机器配置差但fps_max设得很高，有可能造成鼠标丢帧，得不偿失</em><br><strong><code>connect xxx.xxx.xxx.xxx:xxxxxx 密码</code></strong> <em>无密码则忽略</em> 连接到指定IP的服务器<br><strong><code>disconnect</code></strong> 退出当前连接的服务器<br><strong><code>retry</code></strong> 重新尝试连接最近连接过的服务器<br><strong><code>quit/exit</code></strong> 直接退出游戏（队友太菜输入这个指令即可）<br><strong><code>mat_ monitorgamma 1.6</code></strong> 提升黑暗处亮度 <em>可能是提高屏幕亮度</em><br><strong><code>cl_use_opens_buy_menu 0</code></strong> 远距离捡枪<br><strong><code>cl_radar_scale 0.6</code></strong> 调整雷达显示范围<br><strong><code>BindToggle t cl_righthand</code></strong> 左右手持枪切换<br><strong><code>callvote kick</code></strong> 投票踢人 <em>试一试自己的名字</em><br><strong><code>sensitivity 1.25</code></strong> 鼠标灵敏度设置为1.25<br><strong><code>zoom_sensitivity_ratio_mouse 0.7</code></strong> 狙击开镜灵敏度设置为0.7<br><strong><code>volume 1</code></strong> 主音量设置为1<br><strong><code>voice_scale 0.5</code></strong> 队友语音交流音量设置为0.5<br><strong><code>cl_updaterate 128</code></strong> UP:128.0/s<br><strong><code>cl_cmdrate 128</code></strong> cmd:128.0/s</p>
 <h1 id="服务器常用指令"><a href="#服务器常用指令" class="headerlink" title="服务器常用指令"></a><strong>服务器常用指令</strong></h1><p><strong><code>mp_restartgame 1</code></strong> 1秒后刷新游戏<br><strong><code>mp_radar_showall 1</code></strong> 雷达显示所有玩家<br><strong><code>mp_autoteambalance 0/1</code></strong> 是否打开自动平衡 <em>关闭后可以实现1vN的练枪</em><br><strong><code>mp_maxmoney 16000</code></strong> 最高金钱16000<br><strong><code>mp_roundtime 60</code></strong> 死亡竞赛的回合时间60分钟<br><strong><code>mp_roundtime_defuse 60</code></strong> 休闲/竞技模式每局时间60分钟<br><strong><code>mp_maxrounds 30</code></strong> 休闲/竞技模式最大局数设为30局<br><strong><code>mp_startmoney 16000</code></strong> 出生金钱为16000<br><strong><code>mp_buytime 15</code></strong> 开局购买时间15秒<br><strong><code>mp_buy_anywhere 0/1</code></strong> 关闭/开启在任意地点都能购买武器<br><strong><code>mp_freezetime 0</code></strong> 每局出生原地冻结时间0秒<br><strong><code>mp_friendlyfire 0/1</code></strong> 关闭/开启友军伤害<br><strong><code>mp_limitteams 2</code></strong> 双方人数差异最多为2人<br><strong><code>maxplayers 16</code></strong> 地图最大玩家数（包括机器人）<br><strong><code>mp_c4timer 45</code></strong> C4引爆时间45秒<br><strong><code>map de_inferno</code></strong> 切换地图为de_inferno（炼狱小镇）<br><strong><code>maps</code></strong> 列出该服务器所有地图<br><strong><code>mp_display_kill_assists 0/1</code></strong> 关闭/开启助攻显示<br><strong><code>mp_overtime_enable 0/1</code></strong> 是否允许打加时赛<br><strong><code>mp_randomspawn 0/1</code></strong> 是否基地为出生点<br><strong><code>mp_teammates_are_enemies 0/1</code></strong> 死斗模式/死亡模式<br><strong><code>mp_respawn_on_death_t 0/1</code></strong><br><strong><code>mp_respawn_on_death_ct 0/1</code></strong><br><strong><code>sv_password 123</code></strong> 设置服务器密码为123<br><strong><code>exec gamemode_模式</code></strong> 切换游戏模式<br><strong><code>mp_autokick 0</code></strong> 关闭服务器自动踢人 <em>OFF好友服务器封禁</em><br><strong><code>mp_drop_knife_enable 1</code></strong> 允许丢弃近战武器<br><strong><code>mp_weapons_glow_on_ground 1</code></strong> 武器掉落高亮显示<br><strong><code>cl_sim_grenade_trajectory 30</code></strong> 投掷物运动轨迹保留30秒 <em>可修改，修改数字部分即可</em><br><strong><code>cl_grenadepreview 1</code></strong> 显示当前投掷物（如果丢出去时）的运动轨迹</p>
 <h1 id="电脑玩家BOT设置指令"><a href="#电脑玩家BOT设置指令" class="headerlink" title="电脑玩家BOT设置指令"></a><strong>电脑玩家BOT设置指令</strong></h1><p><strong><code>bot_add</code></strong> 随机增加一个bot<br><strong><code>bot_add_ct</code></strong> 增加一名CT<br><strong><code>bot_add_t</code></strong> 增加一名T<br><strong><code>bot_kick</code></strong> 踢出所有电脑<br><strong><code>bot_kill</code></strong> 处死所有电脑<br><strong><code>bot_stop 0/1</code></strong> 关闭/开启bot原地站着不动<br><strong><code>bot_freeze 0/1</code></strong> 关闭开启冻结所有bot <em>类似于上一条功能</em><br><strong><code>bot_place</code></strong> 将一个bot放置在瞄准的地方<br><strong><code>bot_dont_shoot 0/1</code></strong> 是否允许BOT开枪 <em>但bot被闪会乱开枪</em><br><strong><code>bot_knives_only</code></strong> bot只能用刀<br><strong><code>bot_pistols_only</code></strong> bot只能用手枪<br><strong><code>bot_snipers_only</code></strong> bot只能用各种狙<br><strong><code>bot_all_weapons</code></strong> bot能用所有武器<br><strong><code>bot_difficulty bot 0-5</code></strong> 难度，数值越高越难 <em>5代表专家</em></p>
@@ -655,7 +655,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="https://s2.ax1x.com/2019/09/03/nALhjI.png" alt="Yaklo">
+              <img class="site-author-image" itemprop="image" src="/img/old/nALhjI.webp" alt="Yaklo">
             
               <p class="site-author-name" itemprop="name">Yaklo</p>
               <p class="site-description motion-element" itemprop="description"></p>
